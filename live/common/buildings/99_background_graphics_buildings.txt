@@ -1,0 +1,179 @@
+﻿# These buildings are only for showing background graphics, e.g. the walls around holdings
+
+# No Walls
+walls_00 = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		name = "western_walls_00_mesh"
+	}
+
+	is_enabled = {
+		OR = {
+			AND = {
+				is_county_capital = no
+				fort_level < 1
+			}
+			# Using the no_wall holding graphics for cities with special walls so that they don't have double walls
+			has_building_or_higher = "city_wall_of_toledo_01"
+			has_building_or_higher = "roman_wall_of_lugo_01"
+		}
+	}
+}
+
+# Any city that must be sieged gets the basic walls
+walls_01_tribal = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		name = "western_walls_00_mesh"
+	}
+
+	is_enabled = {
+		OR = {
+			is_county_capital = yes
+			fort_level > 0
+		}
+		NOR = {
+			# disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
+			has_building_or_higher = "palisades_01"
+			has_building_or_higher = "curtain_walls_01"
+			has_building_or_higher = "hill_forts_01"
+			has_building_or_higher = "ramparts_01"
+			has_building_or_higher = "watchtowers_01"
+			has_building_or_higher = "theodosian_walls_01"
+			has_building_or_higher = "walls_of_benin_01"
+			has_building_or_higher = "walls_of_genoa_01"
+			has_building_or_higher = "aurelian_walls_01"
+			has_building_or_higher = "city_wall_of_toledo_01"
+			has_building_or_higher = "roman_wall_of_lugo_01"
+		}
+	}
+}
+
+# Here the Fort Level building chains take control of the visuals
+walls_01 = {
+	is_graphical_background = yes
+	asset = {
+		type = pdxmesh
+		name = "western_walls_00_mesh"
+	}
+	
+	is_enabled = {
+		OR = {
+			# These buildings will trigger the visual "upgrade" to this wall asset
+			has_building_or_higher = "palisades_01"
+			has_building_or_higher = "curtain_walls_01"
+			has_building_or_higher = "hill_forts_01"
+			has_building_or_higher = "ramparts_01"
+			has_building_or_higher = "watchtowers_01"
+		}
+		NOR = {
+			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
+			has_building_or_higher = "palisades_02"
+			has_building_or_higher = "curtain_walls_02"
+			has_building_or_higher = "hill_forts_02"
+			has_building_or_higher = "ramparts_02"
+			has_building_or_higher = "watchtowers_02"
+			has_building_or_higher = "theodosian_walls_01"
+			has_building_or_higher = "walls_of_benin_01"
+			has_building_or_higher = "walls_of_genoa_01"
+			has_building_or_higher = "aurelian_walls_01"
+			has_building_or_higher = "city_wall_of_toledo_01"
+			has_building_or_higher = "roman_wall_of_lugo_01"
+		}
+	}
+}
+
+walls_02 = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		name = "western_walls_00_mesh"
+	}
+
+	is_enabled = {
+		OR = {
+			# These buildings will trigger the visual "upgrade" to this wall asset
+			has_building_or_higher = "palisades_02"
+			has_building_or_higher = "curtain_walls_02"
+			has_building_or_higher = "hill_forts_02"
+			has_building_or_higher = "ramparts_02"
+			has_building_or_higher = "watchtowers_02"
+		}
+		NOR = {
+			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
+			has_building_or_higher = "curtain_walls_03"
+			has_building_or_higher = "hill_forts_03"
+			has_building_or_higher = "ramparts_03"
+			has_building_or_higher = "watchtowers_03"
+			has_building_or_higher = "theodosian_walls_01"
+			has_building_or_higher = "walls_of_benin_01"
+			has_building_or_higher = "walls_of_genoa_01"
+			has_building_or_higher = "aurelian_walls_01"
+			has_building_or_higher = "city_wall_of_toledo_01"
+			has_building_or_higher = "roman_wall_of_lugo_01"
+		}
+	}
+}
+
+walls_03 = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		name = "western_walls_00_mesh"
+	}
+
+	is_enabled = {
+		scope:holder = {
+			NOT = { government_has_flag = government_is_tribal }
+		}
+		OR = {
+			# These buildings will trigger the visual "upgrade" to this wall asset
+			has_building_or_higher = "curtain_walls_03"
+			has_building_or_higher = "hill_forts_03"
+			has_building_or_higher = "ramparts_03"
+			has_building_or_higher = "watchtowers_03"
+			has_building_or_higher = "walls_of_benin_01"
+			has_building_or_higher = "walls_of_genoa_01"
+			has_building_or_higher = "aurelian_walls_01"
+		}
+		NOR = {
+			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
+			has_building_or_higher = "curtain_walls_06"
+			has_building_or_higher = "hill_forts_06"
+			has_building_or_higher = "ramparts_06"
+			has_building_or_higher = "watchtowers_06"
+			has_building_or_higher = "theodosian_walls_01"
+			has_building_or_higher = "city_wall_of_toledo_01"
+			has_building_or_higher = "roman_wall_of_lugo_01"
+		}
+	}
+}
+
+walls_04 = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		name = "western_walls_00_mesh"
+	}
+
+	is_enabled = {
+		scope:holder = {
+			NOT = { government_has_flag = government_is_tribal }
+		}
+		OR = {
+			# These buildings will trigger the visual "upgrade" to this wall asset
+			has_building_or_higher = "curtain_walls_06"
+			has_building_or_higher = "hill_forts_06"
+			has_building_or_higher = "ramparts_06"
+			has_building_or_higher = "watchtowers_06"
+			has_building_or_higher = "theodosian_walls_01"
+		}
+	}
+}

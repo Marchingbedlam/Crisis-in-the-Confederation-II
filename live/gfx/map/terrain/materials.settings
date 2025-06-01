@@ -1,0 +1,24 @@
+# masked textures
+#    diffuse    - relative path
+#    normal     - relative path
+#    material   - relative path
+#    mask       - relative path
+#  ( name       - string ) defaults to the name in maskXX_NAME.bmp or, if the mask is named differently, the entire name of the mask image
+#  ( sort_order - number, where it will end up in the map editor ) defaults to 0
+#	id			- string, an internal name that uniquely identifies this material
+{
+	{
+		name=		"CotC Terrain 01"
+		diffuse=	"cotc_terrain_01.dds"
+		normal=		"null_normal.dds"
+		material =	"null_gloss.dds"
+		mask=		"cotc_terrain_01_mask.bmp"
+		id =		"cotc_terrain_01"
+	}
+}
+# unmasked textures
+#    diffuse  - relative path
+#    normal   - relative path
+#    material - relative path
+{
+}

@@ -1,0 +1,6 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+4;9;river_large;20;-1;-1;-1;-1;Avalon-Merlin
+9;12;river_large;20;-1;-1;-1;-1;Merlin-Camelot
+14;16;river_large;20;-1;-1;-1;-1;Camelot-Paladin
+19;7;river_large;20;-1;-1;-1;-1;Paladin-Avalon
+-1;-1;;-1;-1;-1;-1;-1;

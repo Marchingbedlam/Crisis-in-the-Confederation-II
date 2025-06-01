@@ -1,0 +1,30 @@
+d_avalon = {
+	1.1.1 = {
+		holder = 1
+		government = feudal_government
+	}
+}
+
+c_avalon = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_merlin = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_camelot = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_paladin = {
+	1.1.1 = {
+		holder = 1
+	}
+}

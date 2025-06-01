@@ -1,0 +1,10 @@
+﻿object={
+	name="SKYX_skybox"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="cotc_space_layer"
+	pdxmesh="SKYX_skybox_mesh"
+	count=1
+	transform="6000.000000 2495.000000 6000.000000 0.000000 0.000000 0.000000 1.000000 14000.000000 8000.000000 13000.000000
+"}

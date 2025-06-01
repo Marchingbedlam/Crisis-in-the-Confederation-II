@@ -1,0 +1,102 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+@never_primary_score = -1000
+
+e_avalon = {
+	color = { 80 0 0 }
+	capital = c_avalon
+
+	k_avalon = {
+		color = { 80 0 0 }
+		capital = c_avalon
+		d_avalon = {
+			color = { 80 0 0 }
+			capital = c_avalon
+			c_avalon = {
+				color = { 80 0 0 }
+				b_avalon_iii = {
+					province = 2
+					color = { 80 0 0 }
+				};
+				b_avalon_iii_orbital = {
+					province = 3
+					color = { 85 0 0 }
+				}
+				b_avalon_iii_b = {
+					province = 4
+					color = { 90 0 0 }
+				}
+				b_avalon_iv = {
+					province = 5
+					color = { 95 0 0 }
+				}
+				b_avalon_v = {
+					province = 6
+					color = { 100 0 0 }
+				}
+				b_avalon_vi = {
+					province = 7
+					color = { 105 0 0 }
+				}
+			}
+			c_merlin = {
+				color = { 80 15 15 }
+				b_merlin_ii = {
+					province = 8
+					color = { 80 15 15 }
+				};
+				b_nimue = {
+					province = 9
+					color = { 85 15 15 }
+				}
+				b_merlin_iii = {
+					province = 10
+					color = { 90 15 15 }
+				}
+				b_merlin_iv = {
+					province = 11
+					color = { 95 15 15 }
+				}
+			}
+			c_camelot = {
+				color = { 80 30 30 }
+				b_camelot = {
+					province = 12
+					color = { 80 30 30 }
+				};
+				b_camelot_b = {
+					province = 13
+					color = { 85 30 30 }
+				}
+				b_camelot_orbital = {
+					province = 14
+					color = { 90 30 30 }
+				}
+				b_camelot_iii = {
+					province = 15
+					color = { 95 30 30 }
+				}
+			}
+			c_paladin = {
+				color = { 80 45 45 }
+				b_paladin_ii = {
+					province = 16
+					color = { 80 45 45 }
+				};
+				b_paladin_ii_b = {
+					province = 17
+					color = { 85 45 45 }
+				}
+				b_paladin_iii = {
+					province = 18
+					color = { 90 45 45 }
+				}
+				b_paladin_iii_b = {
+					province = 19
+					color = { 95 45 45 }
+				}
+			}
+		}
+	}
+}

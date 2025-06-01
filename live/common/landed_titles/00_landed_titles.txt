@@ -1,0 +1,5559 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+@never_primary_score = -1000
+
+
+########################
+#### VANILLA TITLES ####
+########################
+
+# Whenever Vanilla adds new titles, come back here and add them to the bottom of the list.
+# Regex to find non atlantis titles 
+# - \b[X]_(?!atlantis\b)[a-zA-Z0-9_]+\b
+# - Replace the X with bcdke depending on what title you want to find, or just put them all in to find every title
+
+k_papal_state = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_orthodox = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_fashion = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_iconoclast = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_patriarchate_in_the_east = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_coptic_papacy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_apostolic_church = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_conversos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_manichean = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_danelaw = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_daneland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_mediterranean_sea = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sunni = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_shiite = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_imami = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ismaili = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nizari = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zayidi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_masmudi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_muwalladi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ghulat = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_golden_horde = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_ilkhanate = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_chagatai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_black_horde = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_white_horde = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_aarlud_khanate = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_togskol_khanate = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_baruun_khanate = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_uyghur_khanate = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_kirghiz_khanate = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_mongol_empire = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_great_liao = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_kara_khitai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_timurids = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bosporan_kingdom = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_naiman = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_karaism = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_haymanot = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_malabarism = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_samaritan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kabarism = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mazdayasna = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zurvanism = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gayomarthianism = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khurmazta = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mazdakism = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khurramism = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_urartuism = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sakya_trizin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_guiyi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_switzerland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_austria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_visigoths = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_outremer = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_toledo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_knights_templar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_teutonic_order = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_knights_hospitaler = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_hashshashin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bektashi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_haruriyyah = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jomsvikings = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_immortals = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zealots = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_holy_sepulchre = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_saint_anthony = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_saint_addai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sky_lords = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_spirit_guardians = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_warriors_perun = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chosen_perkunas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sons_kaleva = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_huitzilopochtli = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_knights_santiago = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_knights_calatrava = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_followers_arjuna = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ashokas_chosen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bulls_rishabha = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zun_warriors = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_latin_empire = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_slavia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_beth_nahrain = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_armenia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_north_sea = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_pechenegs = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zaragoza = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_erzerum = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_amalfi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_belgrade = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pronsk = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sandomiersk = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_swiss = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_yungdrung_bon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_hre = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_hansa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_britannia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_england = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bedford = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_northumberland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lancaster = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_york = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_norfolk = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_hereford = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gloucester = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_canterbury = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_somerset = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cornwall = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_wales = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gwynedd = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_powys = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_deheubarth = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_scotland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_albany = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_the_isles = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_galloway = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_western_isles = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lothian = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_moray = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_ireland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_meath = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ulster = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_connacht = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_leinster = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_munster = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_cornwall = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_mann_the_isles = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_germany = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_saxony = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_angria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_westfalen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ostfalen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_holstein = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_frisia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_holland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gelre = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_utrecht = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_frisia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_lotharingia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_luxembourg = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_brabant = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_julich = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_upper_lorraine = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lower_lorraine = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bavaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bavaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nordgau = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_salzburg = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_augsburg = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_steyermark = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_osterreich = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tyrol = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_carinthia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_krain = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_istria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_east_francia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_west_franconia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_east_franconia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_hesse = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_currezia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_alsace = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_swabia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_anhalt = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_thuringia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_roman_empire = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_byzantium = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_saruhan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_trinacria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_tekke = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_trebizond = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_ottoman = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_rum = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_mentese = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_karaman = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_germiyan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_eretnid = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_aydin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_candar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_thessalonika = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_thrace = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_strymon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aegean_islands = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_thessalonika = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_thessaly = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_epirus = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_epirus = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dyrrachion = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cephalonia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_hellas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_athens = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_achaia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_krete = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_krete = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_croatia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dalmatia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_croatia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_slavonia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bosna = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lower_bosna = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_usora = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ragusa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_serbia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_rashka = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_macva = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_duklja = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bosnia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bulgaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vidin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_turnovo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dobrudja = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bulgaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_philippopolis = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_cyprus = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cyprus = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_nikaea = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_opsikion = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ephese = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_thracesia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_optimatoi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bucellaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_anatolia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cilicia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cibyrrhaeot = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_anatolia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cappadocia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_charsianon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_pontus = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_paphlagonia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_armeniac = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sebasteia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chaldia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_armenia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mesopotamia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vaspurakan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_greater_armenia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_georgia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tao = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_abkhazia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_georgia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sicily = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sicily = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_benevento = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_capua = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_apulia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_salerno = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_calabria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_venice = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_venice = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_armenian_principality = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_old_armenia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_italy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_genoa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_pisa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_naples = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_italy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_friuli = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_verona = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_piedmonte = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lombardia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_genoa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_emilia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pisa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_toscana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sardinia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_corsica = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sardinia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_romagna = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_romagna = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ancona = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_spoleto = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_latium = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_scandinavia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sweden = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_svealand = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bergslagen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vastergotland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ostergotland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_smaland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_norrland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gotland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sapmi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aarjetje = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vuovdisamieana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_duortnoseatnu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_giemajohka = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_guoldat = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_denmark = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sjaelland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_skane = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jylland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_slesvig = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_norway = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_viken = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_agder = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vestlandi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_trandalog = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dalir = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_halogaland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_iceland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_northern_isles = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jamtland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_finland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_finland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_savo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pohjanmaa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_karelia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_wendish_empire = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_pomerania = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pommerania = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nordmark = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pomerelia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ostmark = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_lithuania = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lithuanians = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_prussia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_masuria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_courland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_samogitia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_latgalians = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_esthonia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_esthonia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_livonia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_livonia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_west_slavia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_moravia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bohemia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_poland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lesser_poland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_wielkopolska = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mazovia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_upper_silesia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lower_silesia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kuyavia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bohemia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bohemia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_moravia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_galicia-volhynia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_volhynia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_halych = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cherven_cities = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sorbia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_meissen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lausitz = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_russia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_ruthenia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kiev = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_turov = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pereyaslavl = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chernigov = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_karachev = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_novosil = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_novgorod = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_novgorod = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vepsia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_luki = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_white_rus = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_grodno = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pinsk = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_minsk = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_polotsk = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_smolensk = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_opolye = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_opolye = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ryazan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nizhny_novgorod = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bjarmaland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_biarmia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chudia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vologda = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ustyug = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_caspian-pontic_steppe = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_pontic_steppe = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_yedisan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kizilyedisan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_levedia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_red_levedia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_don_valley = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_crimea = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_caucasus = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khazaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_azov = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_alania = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ciscaucasia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_caspian_steppe = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_itil = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pecheneg = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mugodzhar_hills = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aqtobe = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_atyrau = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_manatau = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_magyar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_volga = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_volga_bulgaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_volga_bulgaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kazan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jalmat = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bugurslan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_martyuba = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_mordvinia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mordvinia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_saran = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_voronezh = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chuvashia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khopyor = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tambov = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_permia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_perm = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ural = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_udmurtia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bashkiria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bashkiria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sakmara = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_uraltau = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vogulia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_siberia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_yugra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ostyaki = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_konda = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pelym = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kazym = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sibir = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sibir = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ishim = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tara = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lanikaz = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_ob = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_salair = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aley = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_altaishan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ala_tau = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vasyugan_mire = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_baraba_steppe = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kulyndy_steppe = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_mongolia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_otuken = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_orkhon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ogrash = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_selenga_valley = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ovorkhangai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_arkhangai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khovsgol = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gobi_altai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ubsunur_hollow = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zavkhan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khovd = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_tuva = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_togina = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tannu_ola = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_katu_yaryk = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_western_sayan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_khakassia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khakass_hollow = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_blue_khakassia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_shoria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kargassia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_eastern_sayan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_buryatia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_uda_valley = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dauria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bargujin_tukum = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_baigaluuls = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tsagaanbaigal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_angara = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_yenisei_kan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chuna_valley = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lena = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_angara = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_tartaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_zhetysu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zhetysu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_alakol = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tarbagatai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ili = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_cuman = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_turgay = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kokturgay = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_saryarka = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_qyzylsaryarka = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kazakh = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_qara_dala = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_atbasar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kurgan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kush = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tobol = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_saryarka = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_karkaraly = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tokumbay = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_karabas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_betpa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_kipchak = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_semey = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jinghiz = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_degelen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kentarlau = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_dzungaria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kara_khoja = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_beshbalik = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_altay = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_akaltay = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gurbantunggut = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_naiman_gobi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_turan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_khotan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khotan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kashgar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_karashar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_charkliq = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_loulan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_oghuz_il = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_transcaspiana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_garabogazkol = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jemba = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aral_il = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_barsuki = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aral_karakum = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_syr_darya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_syr_darya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chah = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_muyunkum = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_talas_alatau = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_transoxiana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_soghd = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_badakhshan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khuttal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_osrushana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ferghana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khorezm = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_uzboy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_bactria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_persia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_persia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_isfahan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kirman = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_yazd = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_rayy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_hamadan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_fars = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_hormuz = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khuzestan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kermanshah = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_khorasan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nishapur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_merv = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ghur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_herat = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_balkh = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nasa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kohestan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_daylam = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_daylam = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tabaristan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gurgan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_azerbaijan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_shirvan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_makran = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_makran = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jabal_kufs = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sistan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_kabulistan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_afghanistan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kabul = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zabulistan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_mesopotamia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_samarra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_wasit = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kufa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_basra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_baghdad = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_jazira = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_diyarrabia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_diyarmudar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_diyarbakr = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_euphrates = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kurdistan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_carpathia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_dacia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_transylvanian_alps = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_muntenia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_oltenia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_moldavia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bukovina = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_moldova = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bugeac = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_hungary = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_visegrad = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_somogy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nyitra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ungvar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_transcarpathia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_transylvania = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bihar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_temes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bacs = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gyor = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_syrmia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_france = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_france = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_valois = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_berry = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_anjou = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_normandy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_orleans = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_champagne = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_burgundy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_flanders = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_aquitaine = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gascogne = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aquitaine = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_toulouse = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_languedoc = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_armagnac = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_poitou = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_auvergne = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bourbon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_brittany = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_brittany = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_burgundy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_provence = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_savoie = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dauphine = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_upper_burgundy = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_transjurania = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_spain = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_andalusia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cordoba = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_granada = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sevilla = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_toledo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_badajoz = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_beja = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_badajoz = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_algarve = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_valencia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_valencia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mallorca = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_murcia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_castille = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_castilla = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cantabria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_aragon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aragon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_barcelona = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_navarra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_navarra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_viscaya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_asturias = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_leon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_leon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_asturias = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_spanish_galicia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_galicia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_portugal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_porto = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_coimbra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_maghreb = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_maghreb = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_marrakesh = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sous = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tafilalt = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_fes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_rif = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_canarias = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_canarias = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_tahert = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tlemcen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tahert = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_alger = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bejaia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zab = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mzab = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_africa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kairouan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tunis = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kroumerie = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gabes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jerid = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tripolitania = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_syrte = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_anbiya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zammour = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_adrar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_touat = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_taghaza = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sahara = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tadmekka = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ghat = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_air = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kawar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tibesti = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_fezzan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_arabia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_israel = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_arabia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jawf = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_amman = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_shammar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_medina = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mecca = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_asir = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_najd = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_yamama = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_al-hasa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bahrain = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_oman = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_yemen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sanaa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_taizz = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_hadramawt = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mahra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_socotra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_egypt = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cyrenaica = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_alexandria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_delta = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_cairo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_eastern_desert = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sinai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_jerusalem = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_oultrejourdain = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_palestine = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_urdunn = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_syria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aleppo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_edessa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_homs = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_antioch = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lebanon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_damascus = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_palmyra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_abyssinia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_abyssinia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aksum = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dahlaks = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lasta = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gondar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gojjam = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_showa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_nubia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nobatia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_makuria = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_shamir = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_alwa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sennar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_blemmyia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_naqis = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bazin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_baqlin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_damot = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_damot = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kaffa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sharka = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_adal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dawaro = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_adal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mora = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_danakil = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zaila = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sanaag = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_ajuraan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_ajuraan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_hafun = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mogadishu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_west_ajuraan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_outer_ajuraan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_shabelle = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bali = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_samalo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_kanem_bornu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_kanem = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kanem = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bornu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kagha = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sao = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_baguirmi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_salamat = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_wandala = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_hausaland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kano = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_katsina = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kebbi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gobir = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_darfur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_darfur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_west_darfur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_wadai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kordofan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_mali = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_songhay = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kawkaw = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_timbuktu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dendi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_gurma = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lower_gurma = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_upper_gurma = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_yatenga = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_ghana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_wagadu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mema = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tagant = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_diafunu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kaniaga = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_mali = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_manding = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bambuk = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_futa_jalon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_loma = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_takrur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_takrur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_silla = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_djolof = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_jenne = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jenne = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bobo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_kaabu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kaabu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_wuli = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kasa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_guinea = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_guinea = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sapi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kono = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bassa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_toro = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_wenyon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kru = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_kong = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_worodugu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kong = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lobi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_akan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ashanti = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_adiukru = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gyaman = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_brong = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_eweland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_gur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dagomba = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_wagadugu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mamprusi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_borgu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_borgu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_savalu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_yorubaland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ibadan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_oyo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ife = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_benin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_igbo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_igboland = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nupe = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kwararafa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_india = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_hindustan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_rajastan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_sindh = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sauvira = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bhakkar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_punjab = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_multan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lahore = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gandhara = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_delhi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kuru = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_haritanaka = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_mathura = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vodamayutja = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_gujarat = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gurjara_mandala = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_anartta = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_saurashtra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lata = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_rajputana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_maru = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jangladesh = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_stravani = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_medapata = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ajmer = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_malwa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dadhipadra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_akara_dasarna = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_anupa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_kosala = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kanyakubja = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_saryupara = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jejakabhukti = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_himalaya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kurmanchal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_khasa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nepal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_limbuwan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_kashmir = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kasmira = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pamir = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_bengal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bengal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gauda = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_varendra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vanga = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nadia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_suhma = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_kamarupa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kamarupanagara = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sutiya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_para_lauhitya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bihar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_magadha = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tirabhukti = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kasi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_jharkand = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_gondwana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dahala = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ratanpur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_orissa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tosali = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_daksina_kosala = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kalinga = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dandakaranya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_pagan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pagan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tagaung = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sriksetra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_arakan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ramannadesa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_deccan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_bene_israel = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_maharastra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_devagiri = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vidharba = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_konkana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nasikya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_rattapadi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_karnata = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kalyani = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gangavadi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nulambavadi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_raichur_doab = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_tamilakam = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_pandya_nadu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chola_nadu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chera_nadu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tondai_nadu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_andhra = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_udayagiri = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_vengi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_telingana = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_warangal = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_racakonda = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_lanka = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dakhina_desa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ruhunu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sinhala = { 
+	capital = c_avalon
+	landless = yes
+}
+
+e_tibet = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_u = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_yarlung = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lhasa = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nagchu = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_conyi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_tsang = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_xigaze = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_sagya = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ngamring = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nyima = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_kham = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_qamdo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_boyul = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nyingchi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nangqen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lhatok = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lingtsang = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dege = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_batang = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_litang = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_amdo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_xining = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_tuyuhun = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nagormo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_amdo = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zadoi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_qumarleb = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_gyalrong = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gyalrong = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_chakla = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_golog = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_malho = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_gainlho = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_guge = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ngari = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_kinnaur = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_purang = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_maryul = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ladakh = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zanskar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_baltiyul = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aksai_chin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_rutog = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_lhomon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_bumthang = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_paro = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_monyul = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_lhoyul = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_dzayul = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_xia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_xia = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_wuluhai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_zhenfan = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_liangzhou = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_shanzhou = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_qilin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_ganzhou = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_yijinai = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_guiyi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_aksay = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_ampelas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_aplakes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_agelastos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_doukas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_gerontas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_hexavoulis = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_kardias = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_katakalitzes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_kourkouas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_krateros = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_lachanodrakon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_makedon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_maleios = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_maleinos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_maurikios = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_melissenos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_pastillas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_ooryphas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_sellokalas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_skleros = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_arcruni = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_argyros = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_basiliakos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_botaneiates = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_bryennios = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_diogenes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_dragosevic = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_kamateros = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_karandenos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_kaukadenos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_komnenos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_makrembolites = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_murzuphlos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_ouranos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_pahlavuni = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_palaiologos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_pegonites = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_phokas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_pleustes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_synadenos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_tarchaneiotes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_taronites = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_varajnuni = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_saronites = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_garidas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_areobindenos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_alopos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_durres = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_angelos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_batatzes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_branas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_gabras = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_kamytzes = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_kantakouzenos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_komnenos_doukas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_kontostephanos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_lampardas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_macrodoukas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_petraliphas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_raoul = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_nf_rogerios = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_anangapida = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_ziyar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_ahwazi = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_guttorm = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_hrolfr = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_ubbe = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_enian = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_sevener_caliph = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_twelver_caliph = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_qutid = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_sabbah = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_wake = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_el_cid = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_crispin = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_suleyman = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_wallada = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_danishmend = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_voiteh = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_aelfwine = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_karatzas = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_kalbid = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_du_leon = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_kizil_buga = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_ali_ibn_reverter = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_andronikos_komnenos = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_asen = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_mieszko = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_raimon_brun = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_lalibela = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_muhammad_bakhtiyar = { 
+	capital = c_avalon
+	landless = yes
+}
+
+d_laamp_raoul = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_adiukru = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_toro = { 
+	capital = c_avalon
+	landless = yes
+}
+
+k_winideheim = { 
+	capital = c_avalon
+	landless = yes
+}

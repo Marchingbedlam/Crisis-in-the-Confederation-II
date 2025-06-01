@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "cotc_yellow_star_mesh"
+	file = "cotc_planet.mesh"
+	scale = 0.1
+	
+	meshsettings =
+	{
+		name = "cl_planet_surface_Shape"
+		texture_diffuse = "null_diffuse.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		texture = { file = "cotc_yellow.dds" index = 3 }
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_star
+	}
+	
+	meshsettings =
+	{
+		name = "cl_planet_clouds_Shape"
+		texture_diffuse = "cotc_yellow.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		texture = { file = "cotc_yellow.dds" index = 3 }
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_star
+	}
+	
+	meshsettings =
+	{
+		name = "cl_planet_atmosphere_Shape"
+		texture_diffuse = "cotc_yellow.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_star_atmosphere
+	}
+}
+
+entity = {
+	name = "cotc_yellow_star_entity"
+	pdxmesh = "cotc_yellow_star_mesh"
+}
+
+

@@ -1,0 +1,101 @@
+# e_avalon
+#  k_avalon
+#   d_avalon 
+#    c_avalon
+
+2 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+3 = {
+    culture = atlantean
+    religion = atlantite
+    holding = city_holding
+}
+
+4 = {
+    culture = atlantean
+    religion = atlantite
+    holding = church_holding
+}
+
+5 = {
+	holding = none
+}
+
+6 = {
+	holding = none
+}
+
+7 = {
+	holding = none
+}
+
+#    c_merlin
+
+8 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+9 = {
+    culture = atlantean
+    religion = atlantite
+    holding = church_holding
+}
+
+10 = {
+	holding = none
+}
+
+11 = {
+	holding = none
+}
+
+#    c_camelot
+
+12 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+13 = {
+    culture = atlantean
+    religion = atlantite
+    holding = church_holding
+}
+
+14 = {
+	holding = none
+}
+
+15 = {
+	holding = none
+}
+
+#    c_paladin
+
+16 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+17 = {
+    culture = atlantean
+    religion = atlantite
+    holding = church_holding
+}
+
+18 = {
+	holding = none
+}
+
+19 = {
+	holding = none
+}
+
