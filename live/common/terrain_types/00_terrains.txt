@@ -384,7 +384,7 @@ drylands = {
 #CotC terrain
 
 atmospheric = {
-	color = { 35 130 35 }
+	color = { 25 25 100 } #Federal Blue
 	provision_cost = @provisions_cost_minimal
 	county_fertility = 40
 	
@@ -396,6 +396,95 @@ atmospheric = {
 	county_capital_modifier = {
 		development_growth_factor = 0.2
 	}
+
+	defender_combat_effects = {
+		name = combat_atmospheric
+		image = combat_atmospheric
+		advantage = 5
+	}
+	
+	#movement_speed = 0.8
+	#combat_width = 0.8
 	
 	#audio_parameter = 1.0
+}
+
+barren = {
+	color = { 140 140 140 } #Battleship Grey
+
+	defender_combat_effects = {
+		name = combat_barren
+		image = combat_barren
+		advantage = 4
+	}
+}
+
+frozen = {
+	color = { 150 255 255 } #Ice Blue
+
+	defender_combat_effects = {
+		name = combat_frozen
+		image = combat_frozen
+		advantage = 4
+	}
+}
+
+corrosive = {
+	color = { 50 200 50 } #Lime Green
+
+	defender_combat_effects = {
+		name = combat_corrosive
+		image = combat_corrosive	
+		advantage = 3
+	}
+}
+
+gas_giant = {
+	color = { 255 80 0 } #Aerospace Orange
+
+	defender_combat_effects = {
+		name = combat_gas_giant
+		image = combat_gas_giant	
+		advantage = 3
+	}
+}
+
+frozen_giant = {
+	color = { 150 100 210 } #Amethyst
+
+	defender_combat_effects = {
+		name = combat_frozen_giant
+		image = combat_frozen_giant	
+		advantage = 3
+	}
+}
+
+#This may need to be tweaked into orbital and deep space
+open_space = {
+	color = { 240 230 170 } #Vanilla
+}
+
+asteroids = {
+	color = { 110 70 20 } #Sepia
+
+	defender_combat_effects = {
+		name = combat_asteroids
+		image = combat_asteroids		
+		advantage = 6
+	}
+}
+
+nebula = {
+	color = { 255 90 200 } #Rose Pink
+
+	defender_combat_effects = {
+		name = combat_nebula
+		image = combat_nebula		
+		advantage = 12
+	}
+}
+
+#Some kind of space steppe
+hypermatter_streams = {
+	color = { 255 190 0 } #Amber
 }
