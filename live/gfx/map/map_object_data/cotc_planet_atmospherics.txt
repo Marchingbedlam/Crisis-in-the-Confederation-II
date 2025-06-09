@@ -1,0 +1,20 @@
+﻿object={
+	name="cotc_planet_atmospheric_01"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	entity="cotc_planet_atmospheric_01_entity"
+	count=0
+	transform=""}
+
+object={
+	name="cotc_planet_atmospheric_02"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	entity="cotc_planet_atmospheric_02_entity"
+	count=1
+	transform="
+3735.428955 0.000000 3003.066162 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000"}

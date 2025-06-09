@@ -1,0 +1,155 @@
+pdxmesh = {
+	name = "cotc_planet_barren_01_mesh"
+	file = "cotc_planet.mesh"
+	scale = 1.5
+	
+	meshsettings =
+	{
+		name = "cl_planet_surface_Shape"
+		texture_diffuse = "cotc_planet_barren_01.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		texture = { file = "cotc_planet_barren_01_outer.dds" index = 3 }
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_planet
+	}
+	
+	meshsettings =
+	{
+		name = "cl_planet_clouds_Shape"
+		texture_diffuse = "cotc_planet_barren_01.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		texture = { file = "cotc_planet_barren_01_outer.dds" index = 3 }
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_planet
+	}
+	
+	meshsettings =
+	{
+		name = "cl_planet_atmosphere_Shape"
+		texture_diffuse = "cotc_planet_barren_01_outer.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_planet_atmosphere
+	}
+
+	animation = { id = "cotc_planet_anim"		type = "cotc_planet.anim" }
+}
+
+entity = {
+	name = "cotc_planet_barren_01_entity"
+	pdxmesh = "cotc_planet_barren_01_mesh"
+
+	default_state = "cotc_planet_rotation"
+	state = {	
+        name = "cotc_planet_rotation"
+        animation = "cotc_planet_anim" looping = yes
+    }
+}
+
+pdxmesh = {
+	name = "cotc_planet_barren_02_mesh"
+	file = "cotc_planet.mesh"
+	scale = 1.5
+
+	meshsettings =
+	{
+		name = "cl_planet_surface_Shape"
+		texture_diffuse = "cotc_planet_barren_02.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		texture = { file = "cotc_planet_barren_02_outer.dds" index = 3 }
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_planet
+	}
+
+	meshsettings =
+	{
+		name = "cl_planet_clouds_Shape"
+		texture_diffuse = "cotc_planet_barren_02.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		texture = { file = "cotc_planet_barren_02_outer.dds" index = 3 }
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_planet
+	}
+
+	meshsettings =
+	{
+		name = "cl_planet_atmosphere_Shape"
+		texture_diffuse = "cotc_planet_barren_02_outer.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_planet_atmosphere
+	}
+
+	animation = { id = "cotc_planet_anim"		type = "cotc_planet.anim" }
+}
+
+entity = {
+	name = "cotc_planet_barren_02_entity"
+	pdxmesh = "cotc_planet_barren_02_mesh"
+
+	default_state = "cotc_planet_rotation"
+	state = {
+        name = "cotc_planet_rotation"
+        animation = "cotc_planet_anim" looping = yes
+    }
+}
+
+pdxmesh = {
+	name = "cotc_planet_barren_03_mesh"
+	file = "cotc_planet.mesh"
+	scale = 1.5
+
+	meshsettings =
+	{
+		name = "cl_planet_surface_Shape"
+		texture_diffuse = "cotc_planet_barren_03.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		texture = { file = "cotc_planet_barren_03_outer.dds" index = 3 }
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_planet
+	}
+
+	meshsettings =
+	{
+		name = "cl_planet_clouds_Shape"
+		texture_diffuse = "cotc_planet_barren_03.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		texture = { file = "cotc_planet_barren_03_outer.dds" index = 3 }
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_planet
+	}
+
+	meshsettings =
+	{
+		name = "cl_planet_atmosphere_Shape"
+		texture_diffuse = "cotc_planet_barren_03_outer.dds"
+		texture_normal = "null_normal.dds"
+		texture_specular = "null_gloss.dds"
+		shader_file = "gfx/FX/cotc_space.shader"
+		shader = cotc_planet_atmosphere
+	}
+
+	animation = { id = "cotc_planet_anim"		type = "cotc_planet.anim" }
+}
+
+entity = {
+	name = "cotc_planet_barren_03_entity"
+	pdxmesh = "cotc_planet_barren_03_mesh"
+
+	default_state = "cotc_planet_rotation"
+	state = {
+        name = "cotc_planet_rotation"
+        animation = "cotc_planet_anim" looping = yes
+    }
+}
+
+
+

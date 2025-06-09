@@ -1,3 +1,7 @@
 Crisis in the Confederation created by Galle
 
 Map by Momo
+
+Planet Textures
+    SolarSystemScope : https://www.solarsystemscope.com/textures/
+    ShinyMan : https://www.artstation.com/shinyman

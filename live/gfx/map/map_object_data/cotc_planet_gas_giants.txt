@@ -1,0 +1,21 @@
+﻿object={
+	name="cotc_planet_gas_giant_01"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	entity="cotc_planet_gas_giant_01_entity"
+	count=1
+	transform="
+3756.993652 0.000000 2874.423096 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000"}
+
+object={
+	name="cotc_planet_gas_giant_02"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	entity="cotc_planet_gas_giant_02_entity"
+	count=1
+	transform="
+3795.629395 0.000000 3116.689453 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000"}

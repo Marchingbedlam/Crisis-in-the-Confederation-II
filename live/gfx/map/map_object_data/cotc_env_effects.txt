@@ -1,0 +1,10 @@
+﻿object={
+	name="cotc_env_purple_nebula"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="env_effect_layer"
+	entity="cotc_purple_nebula"
+	count=1
+	transform="3690.623291 -4.000000 3140.208252 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+"}

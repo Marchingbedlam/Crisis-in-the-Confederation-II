@@ -85,6 +85,18 @@ PixelShader =
 		SamplerType = "Compare"
 	}
 
+	TextureSampler COTC_Plane_Mask
+	{
+		Index = 40
+		MagFilter = "Linear"
+		MinFilter = "Linear"
+		MipFilter = "Linear"
+		SampleModeU = "Clamp"
+		SampleModeV = "Clamp"
+		File = "gfx/map/terrain/cotc_plane_mask.png"
+		#srgb = yes
+	}
+
 	# MOD(map-skybox)
 	TextureSampler SkyboxSample
 	{
@@ -183,6 +195,37 @@ PixelShader =
 		]]
 	}
 	# END MOD
+	MainCode COTC_PS_plane
+	{
+		Input = "VS_OUTPUT"
+		Output = "PDX_COLOR"
+		Code
+		[[
+			PDX_MAIN
+			{
+				float2 ColorMapCoords =  Input.WorldSpacePos.xz *  WorldSpaceToTerrain0To1;
+				float ProvinceStrength = smoothstep( 50, 100, CameraPosition.y );
+
+				float3 ProvinceOverlayColor;
+				float PreLightingBlend;
+				float PostLightingBlend;
+				GetProvinceOverlayAndBlend( ColorMapCoords, ProvinceOverlayColor, PreLightingBlend, PostLightingBlend );
+				float3 PlaneMask = PdxTex2DLod0( COTC_Plane_Mask, COTC_WorldSpacePosXZToMapUV( Input.WorldSpacePos.xz ) );
+
+				float Alpha = lerp(PlaneMask.r, 0.0, 1.0 - ProvinceStrength);
+				float3 Color;
+				if( ProvinceOverlayColor.r > 0.0 )
+				{
+					Color = ProvinceOverlayColor;
+				}
+				else
+				{
+					Color = PlaneMask;
+				}
+				return float4( Color, Alpha );
+			}
+		]]
+	}
 	
 	MainCode COTC_PS_standard
 	{
@@ -221,7 +264,7 @@ PixelShader =
 				SMaterialProperties MaterialProps = GetMaterialProperties( Diffuse.rgb, Normal, Properties.a, Properties.g, Properties.b );
 				SLightingProperties LightingProps = GetSunLightingProperties( Input.WorldSpacePos, ShadowTexture );
 				
-				float ProvinceStrength = smoothstep(25, 100, CameraPosition.y);
+				float ProvinceStrength = smoothstep(50, 100, CameraPosition.y);
 				float3 Color = cotc_CalculateSunLighting( MaterialProps, LightingProps, EnvironmentMap, ProvinceStrength );
 				float Alpha = Diffuse.a;
 
@@ -230,11 +273,6 @@ PixelShader =
 				float PostLightingBlend;
 				GetProvinceOverlayAndBlend( ColorMapCoords, ProvinceOverlayColor, PreLightingBlend, PostLightingBlend );
 				float3 ToCameraDir = normalize( Input.WorldSpacePos.xyz - CameraPosition );
-
-				#if defined( COTC_PLANE )
-					Alpha = lerp(Alpha, 0.0, 1.0 - ProvinceStrength);
-					Color = lerp(ProvinceOverlayColor, 0.0, 1.0 - ProvinceStrength);
-				#endif
 
 				#if defined( COTC_OUTER_FRESNEL ) || defined( COTC_FAR_OUTER_FRESNEL ) || defined( COTC_INNER_FRESNEL )
 					float4 AtmoColor = PdxTex2D( AtmosphereMap, DIFFUSE_UV_SET );
@@ -351,27 +389,24 @@ Effect cotc_standard_selection_mapobject
 Effect cotc_plane
 {
 	VertexShader = "COTC_VS_standard"
-	PixelShader = "COTC_PS_standard"
+	PixelShader = "COTC_PS_plane"
 	BlendState = "alpha_to_coverage"
-	Defines = { "COTC_PLANE" }
 	DepthStencilState = DepthStencilState
 }
 
 Effect cotc_plane_mapobject
 {
 	VertexShader = "COTC_VS_mapobject"
-	PixelShader = "COTC_PS_standard"
+	PixelShader = "COTC_PS_plane"
 	BlendState = "alpha_to_coverage"
-	Defines = { "COTC_PLANE" }
 	DepthStencilState = DepthStencilState
 }
 
 Effect cotc_plane_selection_mapobject
 {
 	VertexShader = "COTC_VS_mapobject"
-	PixelShader = "COTC_PS_standard"
+	PixelShader = "COTC_PS_plane"
 	BlendState = "alpha_to_coverage"
-	Defines = { "COTC_PLANE" }
 	DepthStencilState = DepthStencilState
 }
 

@@ -1,0 +1,9 @@
+﻿object={
+	name="cotc_red_star"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	entity="cotc_red_star_entity"
+	count=2
+	transform="3832.251953 0.000000 3169.730713 0.000000 0.000000 0.000000 1.000000 1.557429 1.557429 1.557429"}

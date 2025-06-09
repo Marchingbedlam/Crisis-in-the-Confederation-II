@@ -19,7 +19,6 @@
 
  c_camelot: "New Camelot"
  b_camelot: "New Camelot"
- b_camelot_b: "Camelot-b"
  b_camelot_orbital: "New Camelot Orbital"
  b_camelot_iii: "Camelot III"
 
@@ -28,3 +27,19 @@
  b_paladin_ii_b: "Paladin II-b"
  b_paladin_iii: "Paladin III"
  b_paladin_iii_b: "Paladin III-b"
+
+ d_nelson: "Nelson"
+ c_nelson: "Nelson"
+ b_nelson_ii: "Nelson II"
+ b_nelson_ii_b: "Nelson II-b"
+ b_nelson_iii: "Nelson III"
+ b_nelson_iv: "Nelson IV"
+
+ c_chalice: "Chalice"
+ b_chalice_prime: "Chalice Prime"
+ b_chalice_ii: "Chalice II"
+ b_chalice_iii: "Chalice III"
+
+ c_sherwood: "Sherwood"
+ b_sherwood_citadel: "Sherwood Citadel"
+ b_sherwood_iii: "Sherwood III"
