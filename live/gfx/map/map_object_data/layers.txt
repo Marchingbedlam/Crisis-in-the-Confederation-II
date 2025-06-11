@@ -4,7 +4,7 @@
 layer={
 	name="cotc_space_layer"
 	fade_in=0
-	fade_out=35
+	fade_out=80
 	category=""
 	masks=""
 	visibility_tags=""

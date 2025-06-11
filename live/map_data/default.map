@@ -33,14 +33,14 @@ seasons = "seasons.txt"
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
 
-impassable_mountains = LIST { 20 }
+impassable_mountains = RANGE { 19 25 }
+impassable_mountains = RANGE { 35 154 }
 
 ############
 # WASTELAND
 ############
 # These are actually supposed to be Wasteland:
 # Cannot be colored. Blocks unit movement, used for things like Sahara desert.
-
 impassable_mountains = LIST { 1 }
 
 # IMPASSABLE SEA ZONES

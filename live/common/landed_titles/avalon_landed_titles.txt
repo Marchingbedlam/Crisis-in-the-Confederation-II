@@ -65,36 +65,81 @@ e_avalon = {
 					province = 12
 					color = { 80 30 30 }
 				};
-				b_camelot_b = {
-					province = 13
-					color = { 85 30 30 }
-				}
 				b_camelot_orbital = {
-					province = 14
+					province = 13
 					color = { 90 30 30 }
 				}
 				b_camelot_iii = {
-					province = 15
+					province = 14
 					color = { 95 30 30 }
 				}
 			}
 			c_paladin = {
 				color = { 80 45 45 }
 				b_paladin_ii = {
-					province = 16
+					province = 15
 					color = { 80 45 45 }
 				};
 				b_paladin_ii_b = {
-					province = 17
+					province = 16
 					color = { 85 45 45 }
 				}
 				b_paladin_iii = {
-					province = 18
+					province = 17
 					color = { 90 45 45 }
 				}
 				b_paladin_iii_b = {
-					province = 19
+					province = 18
 					color = { 95 45 45 }
+				}
+			}
+		}
+		d_nelson = {
+			color = { 60 33 33 }
+			capital = c_nelson
+			c_nelson = {
+				color = { 60 33 33 }
+				b_nelson_ii = {
+					province = 26
+					color = { 60 33 33 }
+				};
+				b_nelson_ii_b = {
+					province = 27
+					color = { 60 38 38 }
+				}
+				b_nelson_iii = {
+					province = 28
+					color = { 60 23 23 }
+				}
+				b_nelson_iv = {
+					province = 29
+					color = { 60 28 28 }
+				}
+			}
+			c_chalice = {
+				color = { 57 38 38 }
+				b_chalice_prime = {
+					province = 30
+					color = { 57 38 38 }
+				};
+				b_chalice_ii = {
+					province = 31
+					color = { 57 33 33 }
+				}
+				b_chalice_iii = {
+					province = 32
+					color = { 57 23 23 }
+				}
+			}
+			c_sherwood = {
+				color = { 53 28 28 }
+				b_sherwood_citadel = {
+					province = 33
+					color = { 53 28 28 }
+				};
+				b_sherwood_iii = {
+					province = 34
+					color = { 53 33 33 }
 				}
 			}
 		}

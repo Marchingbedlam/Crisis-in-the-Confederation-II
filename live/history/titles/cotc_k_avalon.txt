@@ -28,3 +28,21 @@ c_paladin = {
 		holder = 1
 	}
 }
+
+c_nelson = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_chalice = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_sherwood = {
+	1.1.1 = {
+		holder = 1
+	}
+}

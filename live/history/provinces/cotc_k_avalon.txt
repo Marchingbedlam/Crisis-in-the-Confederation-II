@@ -64,38 +64,82 @@
 }
 
 13 = {
-    culture = atlantean
-    religion = atlantite
-    holding = church_holding
+	holding = none
 }
 
 14 = {
 	holding = none
 }
 
-15 = {
-	holding = none
-}
-
 #    c_paladin
 
-16 = {
+15 = {
     culture = atlantean
     religion = atlantite
     holding = castle_holding
 }
 
-17 = {
+16 = {
     culture = atlantean
     religion = atlantite
     holding = church_holding
+}
+
+17 = {
+	holding = none
 }
 
 18 = {
 	holding = none
 }
 
-19 = {
+#   d_nelson
+#    c_nelson
+
+26 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+27 = {
+    culture = atlantean
+    religion = atlantite
+    holding = church_holding
+}
+
+28 = {
 	holding = none
 }
 
+29 = {
+	holding = none
+}
+
+#    c_chalice
+
+30 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+31 = {
+	holding = none
+}
+
+32 = {
+	holding = none
+}
+
+#    c_sherwood
+
+33 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+34 = {
+	holding = none
+}
