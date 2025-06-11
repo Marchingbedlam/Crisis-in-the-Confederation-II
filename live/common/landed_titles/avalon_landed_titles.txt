@@ -18,7 +18,7 @@ e_avalon = {
 				b_avalon_iii = {
 					province = 2
 					color = { 80 0 0 }
-				};
+				}
 				b_avalon_iii_orbital = {
 					province = 3
 					color = { 85 0 0 }
@@ -45,7 +45,7 @@ e_avalon = {
 				b_merlin_ii = {
 					province = 8
 					color = { 80 15 15 }
-				};
+				}
 				b_nimue = {
 					province = 9
 					color = { 85 15 15 }
@@ -64,7 +64,7 @@ e_avalon = {
 				b_camelot = {
 					province = 12
 					color = { 80 30 30 }
-				};
+				}
 				b_camelot_orbital = {
 					province = 13
 					color = { 90 30 30 }
@@ -79,7 +79,7 @@ e_avalon = {
 				b_paladin_ii = {
 					province = 15
 					color = { 80 45 45 }
-				};
+				}
 				b_paladin_ii_b = {
 					province = 16
 					color = { 85 45 45 }
@@ -102,7 +102,7 @@ e_avalon = {
 				b_nelson_ii = {
 					province = 26
 					color = { 60 33 33 }
-				};
+				}
 				b_nelson_ii_b = {
 					province = 27
 					color = { 60 38 38 }
@@ -121,7 +121,7 @@ e_avalon = {
 				b_chalice_prime = {
 					province = 30
 					color = { 57 38 38 }
-				};
+				}
 				b_chalice_ii = {
 					province = 31
 					color = { 57 33 33 }
@@ -136,7 +136,7 @@ e_avalon = {
 				b_sherwood_citadel = {
 					province = 33
 					color = { 53 28 28 }
-				};
+				}
 				b_sherwood_iii = {
 					province = 34
 					color = { 53 33 33 }

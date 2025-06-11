@@ -385,12 +385,14 @@ drylands = {
 
 atmospheric = {
 	color = { 25 25 100 } #Federal Blue
+	#Travel Danger Colours need to be tweaked
+	#travel_danger_color = hsv { 0.1 0.5 0.8 }
 	provision_cost = @provisions_cost_minimal
 	county_fertility = 40
 	
 	province_modifier = {
 		supply_limit_mult = 0.5
-		county_fertility_growth_add = farmlands_county_fertility_value
+		county_fertility_growth_add = atmospheric_county_fertility_value
 	}
 
 	county_capital_modifier = {
@@ -411,6 +413,21 @@ atmospheric = {
 
 barren = {
 	color = { 140 140 140 } #Battleship Grey
+	#Travel Danger Colours need to be tweaked
+	travel_danger_color = hsv { 0.1 0.5 0.8 }
+	travel_danger_score = barren_danger_value
+	provision_cost = @provisions_cost_light
+	county_fertility = 25
+
+	province_modifier = {
+		supply_limit_mult = 0
+		travel_danger = barren_danger_value
+		county_fertility_growth_add = barren_county_fertility_value
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.1
+	}
 
 	defender_combat_effects = {
 		name = combat_barren
@@ -421,6 +438,21 @@ barren = {
 
 frozen = {
 	color = { 150 255 255 } #Ice Blue
+	#Travel Danger Colours need to be tweaked
+	travel_danger_color = hsv { 0.1 0.5 0.8 }
+	travel_danger_score = frozen_danger_value
+	provision_cost = @provisions_cost_light
+	county_fertility = 25
+
+	province_modifier = {
+		supply_limit_mult = 0
+		travel_danger = frozen_danger_value
+		county_fertility_growth_add = frozen_county_fertility_value
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.1
+	}
 
 	defender_combat_effects = {
 		name = combat_frozen
@@ -431,6 +463,13 @@ frozen = {
 
 corrosive = {
 	color = { 50 200 50 } #Lime Green
+	#Travel Danger Colours need to be tweaked
+	travel_danger_color = hsv { 0.1 0.5 0.8 }
+
+
+	county_capital_modifier = {
+		development_growth_factor = 0.15
+	}
 
 	defender_combat_effects = {
 		name = combat_corrosive
@@ -441,7 +480,8 @@ corrosive = {
 
 gas_giant = {
 	color = { 255 80 0 } #Aerospace Orange
-
+	#Travel Danger Colours need to be tweaked
+	travel_danger_color = hsv { 0.1 0.5 0.8 }
 	defender_combat_effects = {
 		name = combat_gas_giant
 		image = combat_gas_giant	
@@ -451,7 +491,8 @@ gas_giant = {
 
 frozen_giant = {
 	color = { 150 100 210 } #Amethyst
-
+	#Travel Danger Colours need to be tweaked
+	travel_danger_color = hsv { 0.1 0.5 0.8 }
 	defender_combat_effects = {
 		name = combat_frozen_giant
 		image = combat_frozen_giant	
@@ -466,7 +507,8 @@ open_space = {
 
 asteroids = {
 	color = { 110 70 20 } #Sepia
-
+	#Travel Danger Colours need to be tweaked
+	travel_danger_color = hsv { 0.1 0.5 0.8 }
 	defender_combat_effects = {
 		name = combat_asteroids
 		image = combat_asteroids		
@@ -476,7 +518,8 @@ asteroids = {
 
 nebula = {
 	color = { 255 90 200 } #Rose Pink
-
+	#Travel Danger Colours need to be tweaked
+	travel_danger_color = hsv { 0.1 0.5 0.8 }
 	defender_combat_effects = {
 		name = combat_nebula
 		image = combat_nebula		
@@ -485,6 +528,9 @@ nebula = {
 }
 
 #Some kind of space steppe
-hypermatter_streams = {
+hypermatter_stream = {
 	color = { 255 190 0 } #Amber
+	#Travel Danger Colours need to be tweaked
+	travel_danger_color = hsv { 0.1 0.5 0.8 }
 }
+

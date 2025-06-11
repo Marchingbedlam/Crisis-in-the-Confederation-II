@@ -1,0 +1,155 @@
+﻿traveler_rank_up_1_threshold = 10
+traveler_rank_up_2_threshold = 20
+traveler_rank_up_3_threshold = 30
+traveler_rank_up_4_threshold = 40
+traveler_rank_up_5_threshold = 50
+traveler_rank_up_6_threshold = 60
+traveler_rank_up_7_threshold = 70
+traveler_rank_up_8_threshold = 80
+traveler_rank_up_9_threshold = 90
+traveler_rank_up_10_threshold = 100
+
+# Read time constants
+
+#@atmospheric_danger_value
+@barren_danger_value = 30
+@frozen_danger_value = 30
+@corrosive_danger_value = 50
+@gas_giant_danger_value = 50
+@frozen_giant_danger_value = 50
+@open_space_danger_value = 20 #Majority of terrain should be this, so lowered danger
+@asteroids_danger_value = 65
+@nebula_danger_value = 65
+@hypermatter_stream_danger_value = 65
+
+@epidemic_danger_value = 80
+@high_reduction_constant = -1
+@medium_reduction_constant = @[2 / 3 * -1]
+@low_reduction_constant = @[1 / 3 * -1]
+
+# Script values other files can reference
+
+barren_danger_value = @barren_danger_value
+frozen_danger_value = @frozen_danger_value
+corrosive_danger_value = @corrosive_danger_value
+gas_giant_danger_value = @gas_giant_danger_value
+frozen_giant_danger_value = @frozen_giant_danger_value
+open_space_danger_value = @open_space_danger_value
+asteroids_danger_value = @asteroids_danger_value
+nebula_danger_value = @nebula_danger_value
+hypermatter_stream_danger_value = @hypermatter_stream_danger_value
+epidemic_danger_value = @epidemic_danger_value
+
+ocean_danger_value = 75
+coastal_sea_danger_value = 50
+low_sea_danger_reduction = -25
+medium_sea_danger_reduction = -45
+
+barren_high_danger_reduction = @[barren_danger_value * high_reduction_constant]
+barren_medium_danger_reduction = @[barren_danger_value * medium_reduction_constant +1]
+barren_low_danger_reduction = @[barren_danger_value * low_reduction_constant -2]
+
+frozen_high_danger_reduction = @[frozen_danger_value * high_reduction_constant]
+frozen_medium_danger_reduction = @[frozen_danger_value * medium_reduction_constant +1]
+frozen_low_danger_reduction = @[frozen_danger_value * low_reduction_constant -2]
+
+corrosive_high_danger_reduction = @[corrosive_danger_value * high_reduction_constant]
+corrosive_medium_danger_reduction = @[corrosive_danger_value * medium_reduction_constant +1]
+corrosive_low_danger_reduction = @[corrosive_danger_value * low_reduction_constant -2]
+
+gas_giant_high_danger_reduction = @[gas_giant_danger_value * high_reduction_constant]
+gas_giant_medium_danger_reduction = @[gas_giant_danger_value * medium_reduction_constant +1]
+gas_giant_low_danger_reduction = @[gas_giant_danger_value * low_reduction_constant -2]
+
+frozen_giant_high_danger_reduction = @[frozen_giant_danger_value * high_reduction_constant]
+frozen_giant_medium_danger_reduction = @[frozen_giant_danger_value * medium_reduction_constant +1]
+frozen_giant_low_danger_reduction = @[frozen_giant_danger_value * low_reduction_constant -2]
+
+open_space_high_danger_reduction = @[open_space_danger_value * high_reduction_constant]
+open_space_medium_danger_reduction = @[open_space_danger_value * medium_reduction_constant +1]
+open_space_low_danger_reduction = @[open_space_danger_value * low_reduction_constant -2]
+
+asteroids_high_danger_reduction = @[asteroids_danger_value * high_reduction_constant]
+asteroids_medium_danger_reduction = @[asteroids_danger_value * medium_reduction_constant +1]
+asteroids_low_danger_reduction = @[asteroids_danger_value * low_reduction_constant -2]
+
+nebula_high_danger_reduction = @[nebula_danger_value * high_reduction_constant]
+nebula_medium_danger_reduction = @[nebula_danger_value * medium_reduction_constant +1]
+nebula_low_danger_reduction = @[nebula_danger_value * low_reduction_constant -2]
+
+hypermatter_stream_high_danger_reduction = @[hypermatter_stream_danger_value * high_reduction_constant]
+hypermatter_stream_medium_danger_reduction = @[hypermatter_stream_danger_value * medium_reduction_constant +1]
+hypermatter_stream_low_danger_reduction = @[hypermatter_stream_danger_value * low_reduction_constant -2]
+
+epidemic_high_danger_reduction = @[epidemic_danger_value * high_reduction_constant]
+epidemic_medium_danger_reduction = @[epidemic_danger_value * medium_reduction_constant +1]
+epidemic_low_danger_reduction = @[epidemic_danger_value * low_reduction_constant -2]
+
+# Travel Option Cost Scripted Values 
+low_travel_option_base_cost = 2
+medium_travel_option_base_cost = 5 
+high_travel_option_base_cost = 10
+
+tier_multiplier = {
+	value = primary_title.tier
+	subtract = 1
+	min = 1
+}
+
+very_low_travel_option_cost = {
+	value = low_travel_option_cost
+	multiply = 0.5
+}
+low_travel_option_cost = {
+	value = low_travel_option_base_cost
+	multiply = tier_multiplier
+	if = {
+		limit = {
+			has_perk = well_prepared_perk
+		}
+		multiply = 0.75
+	}
+}
+medium_travel_option_cost = {
+	value = medium_travel_option_base_cost
+	multiply = tier_multiplier
+	if = {
+		limit = {
+			has_perk = well_prepared_perk
+		}
+		multiply = 0.75
+	}
+}
+high_travel_option_cost = {
+	value = high_travel_option_base_cost
+	multiply = tier_multiplier
+	if = {
+		limit = {
+			has_perk = well_prepared_perk
+		}
+		multiply = 0.75
+	}
+}
+
+struggle_low_danger_impact = {
+	value = 15
+}
+
+struggle_medium_danger_impact = {
+	value = 30
+}
+
+struggle_high_danger_impact = {
+	value = 50
+}
+
+food_poison_value = {
+	value = 15
+	subtract = health
+	if = {
+		limit = {
+			has_perk = iron_constitution_perk
+		}
+		add = -5
+	}
+}
