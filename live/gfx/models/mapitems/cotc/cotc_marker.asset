@@ -1,8 +1,8 @@
 pdxmesh = {
 	name = "cotc_marker_mesh"
 	file = "cotc_planet.mesh"
-	scale = 0.1
-	
+	scale = 0.5
+
 	meshsettings =
 	{
 		name = "cl_planet_surface_Shape"

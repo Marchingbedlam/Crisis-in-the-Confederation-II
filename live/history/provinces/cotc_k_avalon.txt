@@ -143,3 +143,135 @@
 34 = {
 	holding = none
 }
+
+154 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+155 = {
+    culture = atlantean
+    religion = atlantite
+    holding = city_holding
+}
+
+156 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+157 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+158 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+159 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+160 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+161 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+162 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+163 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+164 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+165 = {
+    culture = atlantean
+    religion = atlantite
+	holding = city_holding
+}
+
+166 = {
+    culture = atlantean
+    religion = atlantite
+	holding = church_holding
+}
+
+167 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+168 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+169 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+170 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+171 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+172 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+173 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+174 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+175 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}

@@ -1,56 +1,26 @@
 0;0;0;0;x;x;
-1;10;10;10;impassable_space;x;
+1;10;10;10;impassable_space_01;x;
 
 2;80;0;0;avalon_iii;x;
-# Barren, a moderate artificial Earth-like environment leading to a limited urban population
-
 3;85;0;0;avalon_iii_orbital;x;
-# Orbital station, likely for ship manufacture
-
 4;90;0;0;avalon_iii_b;x;
-# Barren, colony
-
 5;95;0;0;avalon_iv;x;
-# Barren
-
 6;100;0;0;avalon_v;x;
-# Frozen
-
 7;105;0;0;avalon_vi;x;
-# Frozen Giant
 
 8;80;15;15;merlin_ii;x;
-# Corrosive, military station in atmosphere
-
 9;85;15;15;nimue;x;
-# Frozen, populated research centre
-
 10;90;15;15;merlin_iii;x;
-# Barren
-
 11;95;15;15;merlin_iv;x;
-# Gas Giant
 
 12;80;30;30;camelot;x;
-# Atmospheric, highly urbanized
-
 13;90;30;30;camelot_orbital;x;
-# Orbital station, likely for ship manufacture
-
 14;95;30;30;camelot_iii;x;
-# Barren, colony
 
 15;80;45;45;paladin_ii;x;
-# Barren, colony
-
 16;85;45;45;paladin_ii_b;x;
-# Barren, colony
-
 17;90;45;45;paladin_iii;x;
-# Gas Giant
-
 18;95;45;45;paladin_iii_b;x;
-# Frozen
 
 19;168;63;72;avalon_sector;x;
 20;140;56;63;nelson_sector;x;
@@ -61,159 +31,229 @@
 25;156;61;69;victoria_sector;x;
 
 26;60;33;33;nelson_ii;x;
-# Barren, colony
-
 27;60;38;38;nelson_ii_b;x;
-# Barren, colony
-
 28;60;23;23;nelson_iii;x;
-# Barren, urbanized
-
 29;60;28;28;nelson_iv;x;
-# Frozen Giant
 
 30;57;38;38;chalice_prime;x;
-# Barren, urbanized
-
 31;57;33;33;chalice_ii;x;
-# Barren, colony
-
 32;57;23;23;chalice_iii;x;
-# Frozen
 
 33;53;28;28;sherwood_citadel;x;
-# Orbital station, likely for ship manufacture
-
 34;53;33;33;sherwood_iii;x;
-# Frozen Giant
 
 35;42;39;68;talon_sector;x;
-36;84;42;196;group_87_sector;x;
-37;126;45;69;tarka_sector;x;
-38;168;48;197;qoqnoos_sector;x;
-39;0;51;70;mandela_sector;x;
-40;42;54;198;new_lusaka_sector;x;
-41;0;54;35;dhartvir_sector;x;
-42;0;81;75;guangdong_sector;x;
-43;42;84;203;yunnan_sector;x;
-44;0;96;205;sichuan_sector;x;
-45;84;180;56;shaanxi_sector;x;
-46;126;183;184;heibei_sector;x;
-47;126;33;159;shanghai_sector;x;
-48;84;15;156;bolivar_sector;x;
-49;168;204;152;encrucijada_sector;x;
-50;42;132;48;frontera_sector;x;
-51;84;135;176;sexto_sol_sector;x;
-52;168;171;182;vega_sector;x;
-53;168;141;177;apollo_sector;x;
-54;0;144;50;armstrong_sector;x;
-55;42;147;178;glenn_sector;x;
-56;84;150;51;ride_sector;x;
-57;126;153;179;shepard_sector;x;
-58;168;156;52;lower_helix_sector;x;
-59;0;159;180;upper_helix_sector;x;
-60;42;162;53;hiyokuoka_sector;x;
-61;84;87;76;sumitomo_sector;x;
-62;168;21;157;okyoto_Nara_sector;x;
-63;126;90;149;iogi_sector;x;
-64;168;108;207;jion_sector;x;
-65;126;78;39;taikun_sector;x;
+36;58;55;77;yeni_istanbul_sector;x;
+37;45;42;65;tarka_sector;x;
+38;60;57;82;qoqnoos_sector;x;
+39;76;73;91;mandela_sector;x;
+40;55;53;70;new_lusaka_sector;x;
+41;57;52;86;dhartvir_sector;x;
+42;81;0;45;guangdong_sector;x;
+43;88;19;57;yunnan_sector;x;
+44;89;27;61;sichuan_sector;x;
+45;72;21;49;shaanxi_sector;x;
+46;87;31;62;heibei_sector;x;
+47;84;16;54;shanghai_sector;x;
+48;99;100;40;bolivar_sector;x;
+49;83;84;42;encrucijada_sector;x;
+50;92;93;45;frontera_sector;x;
+51;100;106;54;sexto_sol_sector;x;
+52;96;98;42;vega_sector;x;
+53;101;119;169;apollo_sector;x;
+54;120;139;191;armstrong_sector;x;
+55;87;103;149;glenn_sector;x;
+56;107;124;167;ride_sector;x;
+57;80;92;124;shepard_sector;x;
+58;95;32;87;lower_helix_sector;x;
+59;82;22;86;upper_helix_sector;x;
+60;57;75;20;hiyokuoka_sector;x;
+61;55;62;40;sumitomo_sector;x;
+62;38;54;4;okyoto_Nara_sector;x;
+63;46;65;5;iogi_sector;x;
+64;48;59;25;jion_sector;x;
+65;72;86;40;taikun_sector;x;
 66;42;27;158;adams_sector;x;
-67;126;168;54;deadwood_sector;x;
-68;42;210;153;douglas_sector;x;
-69;168;36;32;franklin_sector;x;
-70;0;39;160;jefferson_sector;x;
-71;0;111;80;lafayette_sector;x;
-72;42;12;28;washington_sector;x;
-73;0;9;155;almaz_sector;x;
-74;168;51;162;maoxian_sector;x;
-75;42;114;208;mir_sector;x;
-76;42;57;163;novyy_edem_sector;x;
-77;84;60;36;pobeda_sector;x;
-78;126;63;164;prochnost_sector;x;
-79;168;66;37;shen_yan_sector;x;
-80;0;69;165;sovershenstvo_sector;x;
-81;42;72;38;arkanar_sector;x;
-82;84;75;166;kovcheg_sector;x;
-83;42;6;98;novyy_sol_sector;x;
-84;168;81;167;raduga_sector;x;
-85;0;84;40;saula_sector;x;
+67;25;37;152;deadwood_sector;x;
+68;40;62;131;douglas_sector;x;
+69;41;30;128;franklin_sector;x;
+70;31;60;150;jefferson_sector;x;
+71;45;41;94;lafayette_sector;x;
+72;37;32;102;washington_sector;x;
+73;121;137;65;almaz_sector;x;
+74;133;154;58;maoxian_sector;x;
+75;129;172;71;mir_sector;x;
+76;112;163;42;novyy_edem_sector;x;
+77;114;139;80;pobeda_sector;x;
+78;139;164;63;prochnost_sector;x;
+79;137;161;78;shen_yan_sector;x;
+80;143;172;71;sovershenstvo_sector;x;
+81;71;24;24;arkanar_sector;x;
+82;75;36;36;kovcheg_sector;x;
+83;86;24;24;novyy_sol_sector;x;
+84;85;19;19;raduga_sector;x;
+85;61;23;23;saula_sector;x;
 86;42;87;168;altair_sector;x;
-87;84;90;41;draconis_sector;x;
-88;126;93;169;sirius_sector;x;
-89;126;12;99;sol_sector;x;
+87;46;96;184;draconis_sector;x;
+88;25;93;141;sirius_sector;x;
+89;47;82;144;alpha_centauri_sector;x;
 90;0;99;170;tau_ceti_sector;x;
-91;42;102;43;gagarin_sector;x;
-92;84;105;171;tengoku_sector;x;
-93;126;108;44;tereshkova_sector;x;
-94;168;111;172;core_witch_head_sector;x;
-95;0;114;45;lower_witch_head_sector;x;
-96;42;117;173;upper_witch_head_sector;x;
-97;84;120;46;wu_ren_zhi_an_sector;x;
-98;126;123;174;macau_sector;x;
-99;168;126;47;tian_yuan_sector;x;
-100;0;129;175;group_103_sector;x;
-101;168;6;27;yingshi_sector;x;
-102;126;18;29;hang_seng_sector;x;
-103;42;42;33;qiangying_sector;x;
-104;84;57;71;group_98_sector;x;
-105;126;60;199;wei_sector;x;
-106;0;24;30;xin_qin_sector;x;
-107;42;177;183;baihu_sector;x;
-108;0;174;55;huangjing_sector;x;
-109;84;30;31;qinglong_sector;x;
-110;85;54;6;xuanwu_sector;x;
-111;84;165;181;zhuque_sector;x;
-112;168;186;57;adwa_sector;x;
+91;103;103;103;gagarin_sector;x;
+92;89;89;89;tengoku_sector;x;
+93;75;75;75;tereshkova_sector;x;
+94;35;44;97;core_witch_head_sector;x;
+95;60;66;105;lower_witch_head_sector;x;
+96;36;41;69;upper_witch_head_sector;x;
+97;102;88;6;wu_ren_zhi_an_sector;x;
+98;138;123;55;macau_sector;x;
+99;108;106;59;tian_yuan_sector;x;
+100;126;123;63;hua_sector;x;
+101;108;104;20;yingshi_sector;x;
+102;141;126;18;hang_seng_sector;x;
+103;113;93;28;qiangying_sector;x;
+104;109;101;60;deng_biau_sector;x;
+105;127;122;41;wei_sector;x;
+106;105;92;32;xin_qin_sector;x;
+107;143;50;50;baihu_sector;x;
+108;134;37;37;huangjing_sector;x;
+109;86;34;35;qinglong_sector;x;
+110;106;36;30;xuanwu_sector;x;
+111;139;69;69;zhuque_sector;x;
+112;102;206;203;upper_adwa_sector;x;
 113;0;189;185;afolayan_sector;x;
-114;42;192;58;mpya_zanzibar_sector;x;
+114;128;192;191;mpya_zanzibar_sector;x;
 115;84;195;186;ndia_panda_sector;x;
-116;126;198;59;nyota_mwisho_sector;x;
-117;168;201;187;amal_sector;x;
-118;0;204;60;jabraiil_sector;x;
-119;42;207;188;makkat_al_Jadiida_sector;x;
-120;84;210;61;al_bawwaaba_sector;x;
-121;126;0;189;al_hadd_sector;x;
-122;168;3;62;the_remote_sector;x;
-123;0;6;190;outer_veil_sector;x;
-124;42;9;63;ghandi_sector;x;
-125;84;12;191;chandrasekhar_sector;x;
-126;126;15;64;nai_dunya_sector;x;
-127;168;18;192;nae_bangladesa_sector;x;
-128;0;21;65;darius_sector;x;
-129;42;24;193;paraiso_sector;x;
+116;138;214;213;nyota_mwisho_sector;x;
+117;26;62;18;amal_sector;x;
+118;44;58;41;jabraiil_sector;x;
+119;29;48;25;makkat_al_Jadiida_sector;x;
+120;37;66;31;al_bawwaaba_sector;x;
+121;29;67;22;al_hadd_sector;x;
+122;128;54;122;lower_remote_sector;x;
+123;112;54;116;lower_outer_veil_sector;x;
+124;113;73;56;ghandi_sector;x;
+125;91;53;23;chandrasekhar_sector;x;
+126;102;59;41;inner_nai_dunya_sector;x;
+127;121;73;29;outer_nae_bangladesa_sector;x;
+128;63;43;13;darius_sector;x;
+129;69;28;56;paraiso_sector;x;
 130;84;27;66;new_jerusalem_sector;x;
-131;169;135;147;miltia_sector;x;
-132;1;138;20;arjona_sector;x;
-133;43;141;148;basilisco_sector;x;
-134;85;144;21;manticore_sector;x;
-135;127;147;149;group_119_sector;x;
-136;169;150;22;group_114_sector;x;
-137;1;153;150;santiago_sector;x;
-138;43;156;23;ortega_gaona_sector;x;
-139;85;159;151;betelgeuse_sector;x;
-140;127;162;24;cisne_sector;x;
-141;169;165;152;paulet_sector;x;
-142;1;168;25;bellatrix_sector;x;
-143;43;171;153;rigel_sector;x;
-144;85;174;26;sortelha_sector;x;
-145;127;177;154;group_109_sector;x;
-146;169;180;27;melilla_sector;x;
-147;1;183;155;la_forja_de_dios_sector;x;
-148;43;186;28;group_113_sector;x;
-149;85;189;156;group_104_sector;x;
-150;127;192;29;shihai_sector;x;
-151;169;195;157;group_106_sector;x;
-152;1;198;30;group_108_sector;x;
-153;43;201;158;group_107_sector;x;
+131;73;100;103;miltia_sector;x;
+132;52;91;96;arjona_sector;x;
+133;48;79;81;basilisco_sector;x;
+134;50;68;69;manticore_sector;x;
+135;89;109;111;mar_brilliante_sector;x;
+136;64;90;92;mar_del_crepusculo_sector;x;
+137;106;104;96;santiago_sector;x;
+138;101;99;89;ortega_gaona_sector;x;
+139;129;125;113;betelgeuse_sector;x;
+140;169;165;152;meissa_sector;x;
+141;146;142;129;paulet_sector;x;
+142;104;100;87;bellatrix_sector;x;
+143;133;129;118;rigel_sector;x;
+144;116;55;107;sortelha_sector;x;
+145;104;49;95;mar_del_tyken_sector;x;
+146;94;52;88;melilla_sector;x;
+147;116;73;110;la_forja_de_dios_sector;x;
+148;116;56;102;principito_sector;x;
+149;96;55;7;chui_sector;x;
+150;111;71;24;shihai_sector;x;
+151;95;61;20;iserlohn_sector;x;
+152;85;54;16;diyu_sector;x;
+153;76;46;10;hades_sector;x;
+
+154;90;22;22;caliburn_iii;x;
+155;90;52;52;caliburn_iii_orbital;x;
+156;90;32;32;caliburn_v;x;
+157;90;42;42;caliburn_v_b;x;
+
+158;100;22;22;greywood_iii;x;
+159;100;42;42;greywood_iv;x;
+160;100;32;32;greywood_iv_b;x;
+
+161;80;32;32;marys_star_vi_b;x;
+162;80;42;42;marys_star_vi_c;x;
+163;80;22;22;marys_star_vi;x;
+
+164;91;21;21;victoria_iii;x;
+165;91;41;41;victoria_iii_orbital;x;
+166;91;31;31;victoria_ii;x;
+167;91;11;11;victoria_vi;x;
+
+168;71;31;31;garrison_viii_c;x;
+169;71;41;41;garrison_viii_b;x;
+170;71;21;21;garrison_viii;x;
+
+#Red nebula
+
+171;61;31;31;hawkwood_ii;x;
+172;61;21;21;hawkwood_iii;x;
+
+173;81;21;21;endeavour_prime;x;
+174;81;31;31;endeavour_ii;x;
+175;81;41;41;endeavour_ii_b;x;
+
+176;50;50;50;impassable_space_02;x;
+177;245;245;245;impassable_space_03;x;
+
+178;85;102;154;lovell_sector;x;
+# Lovell
+# Bluford
+# Corrigan
+179;73;84;117;hadfield_sector;x;
+# Hadfield
+# Guion
+# Garneau
+180;50;57;34;aspiration_sector;x;
+# Aspiration
+# New Hope
+# Witch Gate
+181;91;28;28;irukan_sector;x;
+# Irukan
+# Soan
+# Arata
+182;90;112;144;alexandrovsk_sector;x;
+# Alexandrovsk
+# Kaisan
+183;110;122;140;sakhalinsky_sector;x;
+# Sakhalinsky
+
+184;35;97;145;outer_sirius_sector;x;
+185;33;40;78;outer_witch_head_sector;x;
+186;44;51;97;inner_witch_head_sector;x;
+187;111;109;53;shitou_wuyin_sector;x;
+188;114;111;47;zhu_rong_duanzao_sector;x;
+189;102;52;52;fenghuang_sector;x;
+190;108;41;41;heilong_sector;x;
+191;106;52;53;bailong_sector;x;
+192;79;141;140;lower_adwa_sector;x;
+193;125;197;196;outer_ndia_panda_sector;x;
+194;42;61;38;karabakh_sector;x;
+195;105;31;99;upper_remote_sector;x;
+196;108;52;103;upper_outer_veil_sector;x;
+197;102;68;37;saranyu_sector;x;
+198;107;65;43;nai_hadarabada_sector;x;
+199;124;120;107;outer_rigel_sector;x;
 
 
+# Avalon
+    # Guinevere II
+    # Guinevere Belt
 
+    # Percival Prime
+    # Percival Station
+    # Percival Belt
 
+# Nelson
+    # Modron
+    # Corbenic
 
+# Victoria
+    # Canterbury
 
-
-
+# Caliburn
+    # Fay
+    # Morris
 
 
 
@@ -234,6 +274,9 @@
 #Galahad IV
 #Galahad VII-b
 
+# Pentecost Prime
+# Pentecost Belt
+
 #Lancelot
 
 #Numenor II
@@ -251,21 +294,6 @@
 #Lancelot III-c
 #Lancelot IV
 
-#Caliburn
-
-#Greywood III
-#Greywood IV
-#Greywood IV-b
-
-#Mary's Star VI-b
-#Mary's Star VI-c
-# Add gas giant for these to orbit
-
-#Caliburn III
-#Caliburn III Orbital
-#Caliburn III-b
-#Caliburn IV
-
 #Alfred
 
 #Alfred Prime
@@ -278,23 +306,10 @@
 #Etherland Prime-d
 # Add gas giant for these to orbit
 
-#Victoria
+# Tennyson Station
+# Tennyson Belt
 
-#Garrison VIII-c
-#Garrison VIII-b
-#Garrison VIII-d
-#Garrison VIII-e
-# Add gas giant for these to orbit
 
-#Hawkwood II
-#Hawkwood III
-# Add grey nebula
-
-#Endeavour Prime
-#Endeavour II
-#Endeavour II-b
-
-#Victoria III
-#Victoria III Orbital
-#Victoria III-b
-#Victoria III-c
+# Castille
+# Catalina
+# Mallorca

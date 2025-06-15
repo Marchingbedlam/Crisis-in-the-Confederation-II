@@ -3,8 +3,19 @@
 	render_pass=Map
 	clamp_to_water_level=no
 	generated_content=no
-	layer="env_effect_layer"
+	layer="building_layer"
 	entity="cotc_purple_nebula"
 	count=1
 	transform="3690.623291 -4.000000 3140.208252 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+"}
+
+object={
+	name="cotc_env_red_nebula"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	entity="cotc_red_nebula"
+	count=1
+	transform="4055.590088 -4.000000 3093.054443 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
 "}

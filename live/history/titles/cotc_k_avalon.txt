@@ -1,7 +1,13 @@
-d_avalon = {
+k_avalon = {
 	1.1.1 = {
 		holder = 1
 		government = feudal_government
+	}
+}
+
+d_avalon = {
+	1.1.1 = {
+		holder = 1
 	}
 }
 
@@ -29,6 +35,12 @@ c_paladin = {
 	}
 }
 
+d_nelson = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
 c_nelson = {
 	1.1.1 = {
 		holder = 1
@@ -42,6 +54,60 @@ c_chalice = {
 }
 
 c_sherwood = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+d_caliburn = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_caliburn = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_greywood = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_marys_star = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+d_victoria = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_victoria = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_garrison = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_hawkwood = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_endeavour = {
 	1.1.1 = {
 		holder = 1
 	}

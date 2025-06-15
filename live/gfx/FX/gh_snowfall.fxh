@@ -79,7 +79,7 @@ PixelShader = {
 		// Interface
 		//
 
-		float3 GH_ApplySnowfall(float3 Color, float3 WorldSpacePos)
+		void GH_ApplySnowfall(inout float3 Color, inout float Alpha, float3 WorldSpacePos)
 		{
 			float WinterSeverity = GetWinterSeverityValue(WorldSpacePos.xz*WorldSpaceToTerrain0To1);
 			float CameraPitchCos = GH_GetCameraPitchCosSnow();
@@ -120,7 +120,8 @@ PixelShader = {
 
 			SnowAlpha *= CameraPitchAlphaMultiplier;
 
-			return lerp(Color, GH_SNOWFALL_SNOW_COLOR, saturate(SnowAlpha));
+			Color = lerp(Color, GH_SNOWFALL_SNOW_COLOR, saturate(SnowAlpha));
+			Alpha = lerp(Alpha, 1.0, saturate(SnowAlpha));
 		}
 	]]
 }

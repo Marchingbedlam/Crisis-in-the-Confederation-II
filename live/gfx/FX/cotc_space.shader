@@ -178,23 +178,6 @@ VertexShader =
 
 PixelShader =
 {
-	# MOD(map-skybox)
-	MainCode SKYX_PS_sky
-	{
-		Input = "VS_OUTPUT"
-		Output = "PDX_COLOR"
-		Code
-		[[
-			PDX_MAIN
-			{
-				float3 FromCameraDir = normalize(Input.WorldSpacePos - CameraPosition);
-				float4 CubemapSample = PdxTexCube(SkyboxSample, FromCameraDir);
-				CubemapSample.rgb = GH_ApplyAtmosphericEffects( CubemapSample.rgb, Input.WorldSpacePos );
-				return CubemapSample;
-			}
-		]]
-	}
-	# END MOD
 	MainCode COTC_PS_plane
 	{
 		Input = "VS_OUTPUT"
@@ -222,7 +205,10 @@ PixelShader =
 				{
 					Color = PlaneMask;
 				}
-				return float4( Color, Alpha );
+
+				GH_ApplyAtmosphericEffects( Color, Alpha, Input.WorldSpacePos );
+
+				return float4(Color, Alpha);
 			}
 		]]
 	}
@@ -409,26 +395,3 @@ Effect cotc_plane_selection_mapobject
 	BlendState = "alpha_to_coverage"
 	DepthStencilState = DepthStencilState
 }
-
-# MOD(map-skybox)
-Effect SKYX_sky
-{
-	VertexShader = "COTC_VS_standard"
-	PixelShader = "SKYX_PS_sky"
-	DepthStencilState = DepthStencilState
-}
-
-Effect SKYX_sky_mapobject
-{
-	VertexShader = "COTC_VS_mapobject"
-	PixelShader = "SKYX_PS_sky"
-	DepthStencilState = DepthStencilState
-}
-
-Effect SKYX_sky_selection_mapobject
-{
-	VertexShader = "COTC_VS_mapobject"
-	PixelShader = "SKYX_PS_sky"
-	DepthStencilState = DepthStencilState
-}
-# END MOD

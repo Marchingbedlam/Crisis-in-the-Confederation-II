@@ -7,4 +7,17 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 31;29;river_large;20;-1;-1;-1;-1;Chalice-Nelson
 28;34;river_large;20;-1;-1;-1;-1;Nelson-Sherwood
 34;30;river_large;20;-1;-1;-1;-1;Sherwood-Chalice
+31;156;river_large;20;-1;-1;-1;-1;Chalice-Caliburn
+157;159;river_large;23;-1;-1;-1;-1;Caliburn-Greywood
+159;163;river_large;23;-1;-1;-1;-1;Greywood-Mary's Star
+161;155;river_large;23;-1;-1;-1;-1;Mary's Star-Caliburn
+156;169;river_large;23;-1;-1;-1;-1;Caliburn-Garrison
+170;11;river_large;19;-1;-1;-1;-1;Garrison-Merlin
+6;168;river_large;24;-1;-1;-1;-1;Avalon-Garrison
+168;171;river_large;24;-1;-1;-1;-1;Garrison-Hawkwood
+171;161;river_large;23;-1;-1;-1;-1;Hawkwood-Mary's Star
+172;165;river_large;24;-1;-1;-1;-1;Hawkwood-Victoria
+172;173;river_large;24;-1;-1;-1;-1;Hawkwood-Endeavour
+174;168;river_large;24;-1;-1;-1;-1;Endeavour-Garrison
+173;167;river_large;24;-1;-1;-1;-1;Endeavour-Victoria
 -1;-1;;-1;-1;-1;-1;-1;

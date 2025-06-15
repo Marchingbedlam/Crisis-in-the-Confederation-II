@@ -1,0 +1,21 @@
+pdxmesh = {
+	name = "cotc_asteroid_01_c_mesh"
+	file = "cotc_asteroid_01_c.mesh"
+	scale = 0.5
+
+	meshsettings = {
+		name = "|tree_leaf_01_c|tree_leaf_01_c|tree_leaf_01_cShape"
+		index = 0
+		texture_diffuse = "cotc_asteroid_01_diffuse.dds"
+		texture_normal = "cotc_asteroid_01_normal.dds"
+		texture_specular = "cotc_asteroid_01_properties.dds"
+		texture = { file = "cotc_asteroid_01_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "cotc_asteroid_01_c_entity"
+	pdxmesh = "cotc_asteroid_01_c_mesh"
+}

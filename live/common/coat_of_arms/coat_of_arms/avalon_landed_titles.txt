@@ -1,55 +1,77 @@
 ﻿e_avalon = {
 	pattern="pattern_solid.dds"
-	color1=white
-	color2=white
-	color3=white
+	color1=red
+	color2=red
+	color3=red
 	colored_emblem={
 		color1=black
-		texture="ce_trident.dds"
+		texture="avalon/avalon_navy.dds"
 		instance={
-			scale={ 0.850000 0.850000 }
+			scale={ 1.0 1.0 }
 		}
 	}
 }
 
 k_avalon = {
 	pattern="pattern_solid.dds"
-	color1=black
-	color2=black
-	color3=black
+	color1=red
+	color2=red
+	color3=red
 	colored_emblem={
 		color1=white
-		texture="ce_trident.dds"
+		texture="avalon/avalon_navy.dds"
 		instance={
-			scale={ 0.850000 0.850000 }
+			scale={ 1.0 1.0 }
 		}
 	}
 }
 
 d_avalon = {
+	pattern="pattern_checkers_01.dds"
+	color1=blue_light
+	color2=red
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="avalon/avalon.dds"
+		instance = { position = { 0.35 0.35 } scale = { 0.4 0.4 }  }
+		instance = { position = { 0.69 0.7 } scale = { 0.4 0.4 }  }
+	}
+}
+
+d_nelson = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=red
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="avalon/nelson.dds"
+		instance = { scale = { 0.9 0.9 }  }
+	}
+}
+
+d_caliburn = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=white
+	colored_emblem={
+		color1=grey
+		color2=blue_light
+		texture="avalon/caliburn.dds"
+		instance = { position = { 0.5 0.6 } scale = { 0.7 0.7 }  }
+	}
+}
+
+d_victoria = {
 	pattern="pattern_solid.dds"
 	color1=purple
 	color2=purple
 	color3=purple
 	colored_emblem={
-		color1=white
-		texture="ce_trident.dds"
-		instance={
-			scale={ 0.850000 0.850000 }
-		}
-	}
-}
-
-c_avalon = {
-	pattern="pattern_solid.dds"
-	color1=blue
-	color2=blue
-	color3=blue
-	colored_emblem={
-		color1=white
-		texture="ce_trident.dds"
-		instance={
-			scale={ 0.850000 0.850000 }
-		}
+		color1=yellow
+		texture="avalon/victoria.dds"
+		instance = { scale = { 0.8 0.8 }  }
 	}
 }

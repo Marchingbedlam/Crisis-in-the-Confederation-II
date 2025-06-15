@@ -6,7 +6,6 @@
 e_avalon = {
 	color = { 80 0 0 }
 	capital = c_avalon
-
 	k_avalon = {
 		color = { 80 0 0 }
 		capital = c_avalon
@@ -18,7 +17,7 @@ e_avalon = {
 				b_avalon_iii = {
 					province = 2
 					color = { 80 0 0 }
-				};
+				}
 				b_avalon_iii_orbital = {
 					province = 3
 					color = { 85 0 0 }
@@ -45,7 +44,7 @@ e_avalon = {
 				b_merlin_ii = {
 					province = 8
 					color = { 80 15 15 }
-				};
+				}
 				b_nimue = {
 					province = 9
 					color = { 85 15 15 }
@@ -64,7 +63,7 @@ e_avalon = {
 				b_camelot = {
 					province = 12
 					color = { 80 30 30 }
-				};
+				}
 				b_camelot_orbital = {
 					province = 13
 					color = { 90 30 30 }
@@ -79,7 +78,7 @@ e_avalon = {
 				b_paladin_ii = {
 					province = 15
 					color = { 80 45 45 }
-				};
+				}
 				b_paladin_ii_b = {
 					province = 16
 					color = { 85 45 45 }
@@ -102,7 +101,7 @@ e_avalon = {
 				b_nelson_ii = {
 					province = 26
 					color = { 60 33 33 }
-				};
+				}
 				b_nelson_ii_b = {
 					province = 27
 					color = { 60 38 38 }
@@ -121,7 +120,7 @@ e_avalon = {
 				b_chalice_prime = {
 					province = 30
 					color = { 57 38 38 }
-				};
+				}
 				b_chalice_ii = {
 					province = 31
 					color = { 57 33 33 }
@@ -136,10 +135,127 @@ e_avalon = {
 				b_sherwood_citadel = {
 					province = 33
 					color = { 53 28 28 }
-				};
+				}
 				b_sherwood_iii = {
 					province = 34
 					color = { 53 33 33 }
+				}
+			}
+		}
+		d_caliburn = {
+			color = { 90 22 22 }
+			capital = c_caliburn
+			c_caliburn = {
+				color = { 90 22 22 }
+				b_caliburn_iii = {
+					province = 154
+					color = { 90 22 22 }
+				}
+				b_caliburn_iii_orbital = {
+					province = 155
+					color = { 90 52 52 }
+				}
+				b_caliburn_v = {
+					province = 156
+					color = { 90 32 32 }
+				}
+				b_caliburn_v_b = {
+					province = 157
+					color = { 90 42 42 }
+				}
+			}
+			c_greywood = {
+				color = { 100 22 22 }
+				b_greywood_iii = {
+					province = 158
+					color = { 100 22 22 }
+				}
+				b_greywood_iv = {
+					province = 159
+					color = { 100 42 42 }
+				}
+				b_greywood_iv_b = {
+					province = 160
+					color = { 100 32 32 }
+				}
+			}
+			c_marys_star = {
+				color = { 80 32 32 }
+				b_marys_star_vi_b = {
+					province = 161
+					color = { 80 32 32 }
+				}
+				b_marys_star_vi_c = {
+					province = 162
+					color = { 80 42 42 }
+				}
+				b_marys_star_vi = {
+					province = 163
+					color = { 80 22 22 }
+				}
+			}
+		}
+		d_victoria = {
+			color = { 91 11 21 }
+			capital = c_victoria
+			c_victoria = {
+				color = { 91 21 21 }
+				b_victoria_iii = {
+					province = 164
+					color = { 91 21 21 }
+				}
+				b_victoria_iii_orbital = {
+					province = 165
+					color = { 91 41 41 }
+				}
+				b_victoria_ii = {
+					province = 166
+					color = { 91 31 31 }
+				}
+				b_victoria_vi = {
+					province = 167
+					color = { 91 11 11 }
+				}
+			}
+			c_garrison = {
+				color = { 71 31 31 }
+				b_garrison_viii_c = {
+					province = 168
+					color = { 71 31 31 }
+				}
+				b_garrison_viii_b = {
+					province = 169
+					color = { 71 41 41 }
+				}
+				b_garrison_viii = {
+					province = 170
+					color = { 71 21 21 }
+				}
+			}
+			c_hawkwood = {
+				color = { 61 31 31 }
+				b_hawkwood_ii = {
+					province = 171
+					color = { 61 31 31 }
+				}
+				b_hawkwood_iii = {
+					province = 172
+					color = { 61 21 21 }
+				}
+			}
+			c_endeavour = {
+				color = { 81 21 21 }
+				b_endeavour_prime = {
+					province = 173
+					color = { 81 21 21 }
+				}
+				b_endeavour_ii = {
+					province = 174
+					color = { 81 31 31 }
+				}
+				b_endeavour_ii_b = {
+					province = 175
+					color = { 81 41 41 }
 				}
 			}
 		}

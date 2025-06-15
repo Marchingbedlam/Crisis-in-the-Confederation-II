@@ -4,13 +4,9 @@ Includes = {
 
 PixelShader = {
 	Code [[
-		float3 GH_ApplyAtmosphericEffects(float3 Color, float3 WorldSpacePos)
+		void GH_ApplyAtmosphericEffects(inout float3 Color, inout float Alpha, float3 WorldSpacePos)
 		{
-			float3 OutputColor = Color;
-
-			OutputColor = GH_ApplySnowfall(OutputColor, WorldSpacePos);
-
-			return OutputColor;
+			GH_ApplySnowfall(Color, Alpha, WorldSpacePos);
 		}
 	]]
 }

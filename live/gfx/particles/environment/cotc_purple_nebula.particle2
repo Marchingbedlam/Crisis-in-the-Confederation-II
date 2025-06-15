@@ -85,7 +85,7 @@ graph={
 			id=4
 			node={
 				value={
-					0.274272 0.103394 0.343750 1.000000
+					0.366944 0.114807 0.816406 1.000000
 				}
 
 			}
@@ -2806,7 +2806,7 @@ graph={
 		pdxns:values:Float={
 			id=182
 			node={
-				value=40.000000
+				value=80.000000
 			}
 			inputs={
 			}
@@ -2886,7 +2886,7 @@ graph={
 		pdxns:values:Float={
 			id=191
 			node={
-				value=1.000000
+				value=0.500000
 			}
 			inputs={
 			}
@@ -2894,7 +2894,7 @@ graph={
 		pdxns:values:Float={
 			id=192
 			node={
-				value=6.000000
+				value=3.000000
 			}
 			inputs={
 			}

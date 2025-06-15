@@ -214,9 +214,6 @@ PixelShader =
 		[[
 			PDX_MAIN
 			{
-				// MOD(CL)
-				discard;
-				// END MOD
 				float2 ColorMapCoords = Input.WorldSpacePos.xz * WorldSpaceToTerrain0To1;
 				float4 Diffuse = PdxTex2D( DiffuseMap, Input.UV0 );
 				float3 NormalSample = UnpackRRxGNormal( PdxTex2D( NormalMap, Input.UV0 ) );
@@ -272,9 +269,6 @@ PixelShader =
 		[[
 			PDX_MAIN
 			{
-				// MOD(CL)
-				discard;
-				// END MOD
 				float2 uv = Input.UV0;
 				float4 Color = PdxTex2D( DiffuseMap, uv );
 
