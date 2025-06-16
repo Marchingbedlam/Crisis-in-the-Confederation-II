@@ -92,6 +92,32 @@ e_avalon = {
 					color = { 95 45 45 }
 				}
 			}
+			c_guinevere = {
+				color = { 95 16 16 }
+				b_guinevere_ii = {
+					province = 200
+					color = { 95 16 16 }
+				}
+				b_guinevere_belt = {
+					province = 201
+					color = { 90 16 16 }
+				}
+			}
+			c_percival = {
+				color = { 95 16 16 }
+				b_percival_prime = {
+					province = 202
+					color = { 80 31 31 }
+				}
+				b_percival_prime_orbital = {
+					province = 203
+					color = { 95 31 31 }
+				}
+				b_percival_belt = {
+					province = 204
+					color = { 90 31 31 }
+				}
+			}
 		}
 		d_nelson = {
 			color = { 60 33 33 }
@@ -139,6 +165,28 @@ e_avalon = {
 				b_sherwood_iii = {
 					province = 34
 					color = { 53 33 33 }
+				}
+			}
+			c_modron = {
+				color = { 53 34 34 }
+				b_modron_ii = {
+					province = 207
+					color = { 53 34 34 }
+				}
+				b_modron_belt = {
+					province = 208
+					color = { 63 34 34 }
+				}
+			}
+			c_corbenic = {
+				color = { 60 41 41 }
+				b_corbenic_vi = {
+					province = 209
+					color = { 60 41 41 }
+				}
+				b_corbenic_belt = {
+					province = 210
+					color = { 71 45 43 }
 				}
 			}
 		}
@@ -192,6 +240,28 @@ e_avalon = {
 				b_marys_star_vi = {
 					province = 163
 					color = { 80 22 22 }
+				}
+			}
+			c_fay = {
+				color = { 90 24 24 }
+				b_fay_iv = {
+					province = 211
+					color = { 90 24 24 }
+				}
+				b_fay_belt = {
+					province = 212
+					color = { 100 24 24 }
+				}
+			}
+			c_morris = {
+				color = { 100 34 34 }
+				b_morris_station = {
+					province = 213
+					color = { 100 34 34 }
+				}
+				b_morris_belt = {
+					province = 214
+					color = { 90 34 34 }
 				}
 			}
 		}
@@ -256,6 +326,138 @@ e_avalon = {
 				b_endeavour_ii_b = {
 					province = 175
 					color = { 81 41 41 }
+				}
+			}
+			c_canterbury = {
+				color = { 91 32 32 }
+				b_canterbury_station = {
+					province = 205
+					color = { 91 32 32 }
+				}
+				b_canterbury_belt = {
+					province = 206
+					color = { 81 32 32 }
+				}
+			}
+		}
+		d_alfred = {
+			color = { 93 33 33 }
+			capital = c_alfred
+			c_alfred = {
+				color = { 93 33 33 }
+				b_alfred_prime = {
+					province = 215
+					color = { 93 33 33 }
+				}
+				b_alfred_prime_orbital = {
+					province = 216
+					color = { 87 33 33 }
+				}
+				b_alfred_iii = {
+					province = 217
+					color = { 95 47 47 }
+				}
+				b_alfred_belt = {
+					province = 218
+					color = { 85 47 47 }
+				}
+			}
+			c_etherland = {
+				color = { 89 44 44 }
+				b_etherland_prime = {
+					province = 219
+					color = { 89 44 44 }
+				}
+				b_etherland_prime_b = {
+					province = 220
+					color = { 95 39 39 }
+				}
+				b_etherland_prime_c = {
+					province = 221
+					color = { 91 35 35 }
+				}
+				b_etherland_belt = {
+					province = 222
+					color = { 103 33 33 }
+				}
+			}
+			c_tennyson = {
+				color = { 93 24 24 }
+				b_tennyson_station = {
+					province = 223
+					color = { 93 24 24 }
+				}
+				b_tennyson_belt = {
+					province = 224
+					color = { 93 31 31 }
+				}
+			}
+		}
+		d_galahad = {
+			color = { 73 13 13 }
+			capital = c_galahad
+			c_galahad = {
+				color = { 83 23 23 }
+				b_galahad_iii = {
+					province = 225
+					color = { 83 23 23 }
+				}
+				b_galahad_citadel = {
+					province = 226
+					color = { 73 27 27 }
+				}
+				b_galahad_iv = {
+					province = 227
+					color = { 83 33 33 }
+				}
+				b_galahad_iv_b = {
+					province = 228
+					color = { 73 13 13 }
+				}
+				b_galahad_vii = {
+					province = 229
+					color = { 76 24 24 }
+				}
+			}
+			c_silverlight = {
+				color = { 78 25 25 }
+				b_silverlight_prime_orbital = {
+					province = 230
+					color = { 83 23 23 }
+				}
+				b_silverlight_prime = {
+					province = 231
+					color = { 78 15 15 }
+				}
+				b_silverlight_belt = {
+					province = 232
+					color = { 78 35 35 }
+				}
+			}
+			c_virtue = {
+				color = { 77 0 0 }
+				b_virtue_iv = {
+					province = 233
+					color = { 77 0 0 }
+				}
+				b_virtue_iv_b = {
+					province = 234
+					color = { 77 13 13 }
+				}
+				b_virtue_belt = {
+					province = 235
+					color = { 77 17 17 }
+				}
+			}
+			c_pentecost = {
+				color = { 88 28 28 }
+				b_pentecost_station = {
+					province = 236
+					color = { 88 28 28 }
+				}
+				b_pentecost_belt = {
+					province = 237
+					color = { 78 28 28 }
 				}
 			}
 		}

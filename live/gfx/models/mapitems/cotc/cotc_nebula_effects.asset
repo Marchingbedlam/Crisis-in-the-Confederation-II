@@ -23,3 +23,17 @@ entity = {
 	locator = { name = "temp" position = { 0 -10 0 } }
 	cull_radius = 40
 }
+
+entity = {
+	name = "cotc_blue_nebula"
+	scale = 1
+	locator = { name = part1 }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "part1" particle = "environment/cotc_blue_nebula" trigger_once = yes skip_forward = 2}
+	}
+	locator = { name = "temp" position = { 0 -10 0 } }
+	cull_radius = 40
+}
+

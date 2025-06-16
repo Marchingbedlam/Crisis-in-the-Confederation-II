@@ -1,23 +1,40 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4;9;river_large;19;-1;-1;-1;-1;Avalon-Merlin
-9;12;river_large;19;-1;-1;-1;-1;Merlin-Camelot
+9;12;river_large;19;-1;-1;-1;-1;Merlin-New Camelot
 13;15;river_large;19;-1;-1;-1;-1;Camelot-Paladin
 18;7;river_large;19;-1;-1;-1;-1;Paladin-Avalon
 8;32;river_large;19;-1;-1;-1;-1;Merlin-Chalice
 31;29;river_large;20;-1;-1;-1;-1;Chalice-Nelson
-28;34;river_large;20;-1;-1;-1;-1;Nelson-Sherwood
-34;30;river_large;20;-1;-1;-1;-1;Sherwood-Chalice
 31;156;river_large;20;-1;-1;-1;-1;Chalice-Caliburn
-157;159;river_large;23;-1;-1;-1;-1;Caliburn-Greywood
-159;163;river_large;23;-1;-1;-1;-1;Greywood-Mary's Star
 161;155;river_large;23;-1;-1;-1;-1;Mary's Star-Caliburn
 156;169;river_large;23;-1;-1;-1;-1;Caliburn-Garrison
-170;11;river_large;19;-1;-1;-1;-1;Garrison-Merlin
 6;168;river_large;24;-1;-1;-1;-1;Avalon-Garrison
 168;171;river_large;24;-1;-1;-1;-1;Garrison-Hawkwood
 171;161;river_large;23;-1;-1;-1;-1;Hawkwood-Mary's Star
 172;165;river_large;24;-1;-1;-1;-1;Hawkwood-Victoria
-172;173;river_large;24;-1;-1;-1;-1;Hawkwood-Endeavour
+172;206;river_large;24;-1;-1;-1;-1;Hawkwood-Canterbury
 174;168;river_large;24;-1;-1;-1;-1;Endeavour-Garrison
 173;167;river_large;24;-1;-1;-1;-1;Endeavour-Victoria
+205;173;river_large;24;-1;-1;-1;-1;Canterbury-Endeavour
+11;200;river_large;19;-1;-1;-1;-1;Merlin-Guinevere
+201;170;river_large;19;-1;-1;-1;-1;Guinevere-Garrison
+202;14;river_large;19;-1;-1;-1;-1;Percival-New Camelot
+33;207;river_large;20;-1;-1;-1;-1;Sherwood-Modron
+208;30;river_large;20;-1;-1;-1;-1;Modron-Chalice
+207;28;river_large;20;-1;-1;-1;-1;Modron-Nelson
+26;209;river_large;20;-1;-1;-1;-1;Nelson-Corbenic
+159;212;river_large;23;-1;-1;-1;-1;Greywood-Fay
+159;213;river_large;23;-1;-1;-1;-1;Greywood-Morris
+212;157;river_large;23;-1;-1;-1;-1;Fay-Caliburn
+214;163;river_large;23;-1;-1;-1;-1;Morris-Mary's Star
+221;217;river_large;25;-1;-1;-1;-1;Etherland-Alfred
+220;223;river_large;25;-1;-1;-1;-1;Etherland-Tennyson
+162;223;river_large;23;-1;-1;-1;-1;Tennyson-Mary's Star
+222;214;river_large;25;-1;-1;-1;-1;Etherland-Morris
+26;232;river_large;20;-1;-1;-1;-1;Nelson-Silverlight
+160;234;river_large;21;-1;-1;-1;-1;Greywood-Virtue
+230;235;river_large;21;-1;-1;-1;-1;Silverlight-Virtue
+232;226;river_large;21;-1;-1;-1;-1;Silverlight-Galahad
+228;235;river_large;21;-1;-1;-1;-1;Galahad-Virtue
+227;236;river_large;21;-1;-1;-1;-1;Galahad-Pentecost
 -1;-1;;-1;-1;-1;-1;-1;

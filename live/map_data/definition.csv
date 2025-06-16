@@ -7,16 +7,13 @@
 5;95;0;0;avalon_iv;x;
 6;100;0;0;avalon_v;x;
 7;105;0;0;avalon_vi;x;
-
 8;80;15;15;merlin_ii;x;
 9;85;15;15;nimue;x;
 10;90;15;15;merlin_iii;x;
 11;95;15;15;merlin_iv;x;
-
 12;80;30;30;camelot;x;
 13;90;30;30;camelot_orbital;x;
 14;95;30;30;camelot_iii;x;
-
 15;80;45;45;paladin_ii;x;
 16;85;45;45;paladin_ii_b;x;
 17;90;45;45;paladin_iii;x;
@@ -34,11 +31,9 @@
 27;60;38;38;nelson_ii_b;x;
 28;60;23;23;nelson_iii;x;
 29;60;28;28;nelson_iv;x;
-
 30;57;38;38;chalice_prime;x;
 31;57;33;33;chalice_ii;x;
 32;57;23;23;chalice_iii;x;
-
 33;53;28;28;sherwood_citadel;x;
 34;53;33;33;sherwood_iii;x;
 
@@ -166,11 +161,9 @@
 155;90;52;52;caliburn_iii_orbital;x;
 156;90;32;32;caliburn_v;x;
 157;90;42;42;caliburn_v_b;x;
-
 158;100;22;22;greywood_iii;x;
 159;100;42;42;greywood_iv;x;
 160;100;32;32;greywood_iv_b;x;
-
 161;80;32;32;marys_star_vi_b;x;
 162;80;42;42;marys_star_vi_c;x;
 163;80;22;22;marys_star_vi;x;
@@ -179,16 +172,11 @@
 165;91;41;41;victoria_iii_orbital;x;
 166;91;31;31;victoria_ii;x;
 167;91;11;11;victoria_vi;x;
-
 168;71;31;31;garrison_viii_c;x;
 169;71;41;41;garrison_viii_b;x;
 170;71;21;21;garrison_viii;x;
-
-#Red nebula
-
 171;61;31;31;hawkwood_ii;x;
 172;61;21;21;hawkwood_iii;x;
-
 173;81;21;21;endeavour_prime;x;
 174;81;31;31;endeavour_ii;x;
 175;81;41;41;endeavour_ii_b;x;
@@ -235,47 +223,55 @@
 198;107;65;43;nai_hadarabada_sector;x;
 199;124;120;107;outer_rigel_sector;x;
 
+200;95;16;16;guinevere_ii;x;
+201;90;16;16;guinevere_belt;x;
+202;80;31;31;percival_prime;x;
+203;95;31;31;percival_station;x;
+204;90;31;31;percival_belt;x;
+205;91;32;32;canterbury_station;x;
+206;81;32;32;canterbury_belt;x;
+207;53;34;34;modron_ii;x;
+208;63;34;34;modron_belt;x;
+209;60;41;41;corbenic_vi;x;
+210;71;45;43;corbenic_belt;x;
+211;90;24;24;fay_iv;x;
+212;100;24;24;fay_belt;x;
+213;100;34;34;morris_station;x;
+214;90;34;34;morris_belt;x;
 
-# Avalon
-    # Guinevere II
-    # Guinevere Belt
+215;93;33;33;alfred_prime;x;
+216;87;33;33;alfred_prime_orbital;x;
+217;95;47;47;alfred_iii;x;
+218;85;47;47;alfred_belt;x;
+219;89;44;44;etherland_prime;x;
+220;95;39;39;etherland_prime_b;x;
+221;91;35;35;etherland_prime_c;x;
+222;103;33;33;etherland_belt;x;
+223;93;24;24;tennyson_station;x;
+224;93;31;31;tennyson_belt;x;
 
-    # Percival Prime
-    # Percival Station
-    # Percival Belt
-
-# Nelson
-    # Modron
-    # Corbenic
-
-# Victoria
-    # Canterbury
-
-# Caliburn
-    # Fay
-    # Morris
 
 
 
 #Galahad
 
-#Silverlight Prime
-#Silverlight Prime-b
-#Silverlight II
+225;83;23;23;galahad_iii;x; # Atmospheric
+226;73;27;27;galahad_citadel;x;
+227;83;33;33;galahad_iv;x;
+228;73;13;13;galahad_iv_b;x;
+229;76;24;24;galahad_vii;x;
+
+230;78;25;25;silverlight_prime_orbital;x;
+231;78;15;15;silverlight_prime;x;
+232;78;35;35;silverlight_belt;x;
 # Add blue-silver nebula
 
-#Virtue IV
-#Virtue IV-b
-#Virtue IV-c
+233;77;0;0;virtue_iv;x;
+234;77;13;13;virtue_iv_b;x;
+235;77;17;17;virtue_belt;x;
 
-#Galahad III
-#Galahad Citadel
-#Galahad III-b
-#Galahad IV
-#Galahad VII-b
-
-# Pentecost Prime
-# Pentecost Belt
+236;88;28;28;pentecost_station;x;
+237;78;28;28;pentecost_belt;x;
 
 #Lancelot
 
@@ -289,25 +285,10 @@
 #Robinson II Orbital
 #Robinson III
 
-#Lancelot III
+#Lancelot III Atmospheric
 #Lancelot III-b
 #Lancelot III-c
 #Lancelot IV
-
-#Alfred
-
-#Alfred Prime
-#Alfred Prime-b
-#Alfred Prime-c
-#Alfred II
-
-#Etherland Prime-b
-#Etherland Prime-c
-#Etherland Prime-d
-# Add gas giant for these to orbit
-
-# Tennyson Station
-# Tennyson Belt
 
 
 # Castille

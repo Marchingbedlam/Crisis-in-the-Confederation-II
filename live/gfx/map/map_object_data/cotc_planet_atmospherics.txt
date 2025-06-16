@@ -5,8 +5,9 @@
 	generated_content=no
 	layer="building_layer"
 	entity="cotc_planet_atmospheric_01_entity"
-	count=0
-	transform=""}
+	count=1
+	transform="
+3910.813721 0.000000 3462.915283 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000"}
 
 object={
 	name="cotc_planet_atmospheric_02"

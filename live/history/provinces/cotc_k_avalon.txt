@@ -275,3 +275,231 @@
     religion = atlantite
 	holding = none
 }
+
+200 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+201 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+202 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+203 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+204 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+205 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+206 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+207 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+208 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+209 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+210 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+211 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+212 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+213 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+214 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+215 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+216 = {
+    culture = atlantean
+    religion = atlantite
+	holding = city_holding
+}
+
+217 = {
+    culture = atlantean
+    religion = atlantite
+	holding = church_holding
+}
+
+218 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+219 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+220 = {
+    culture = atlantean
+    religion = atlantite
+	holding = city_holding
+}
+
+221 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+222 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+223 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+224 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+225 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+226 = {
+    culture = atlantean
+    religion = atlantite
+	holding = city_holding
+}
+
+227 = {
+    culture = atlantean
+    religion = atlantite
+	holding = church_holding
+}
+
+228 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+229 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+230 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+231 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+232 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+233 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+234 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+235 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}
+
+236 = {
+    culture = atlantean
+    religion = atlantite
+	holding = castle_holding
+}
+
+237 = {
+    culture = atlantean
+    religion = atlantite
+	holding = none
+}

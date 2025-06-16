@@ -112,3 +112,87 @@ c_endeavour = {
 		holder = 1
 	}
 }
+
+c_guinevere = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_percival = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_canterbury = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_modron = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_corbenic = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_fay = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_morris = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_alfred = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_etherland = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_tennyson = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_galahad = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_silverlight = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_virtue = {
+	1.1.1 = {
+		holder = 1
+	}
+}
+
+c_pentecost = {
+	1.1.1 = {
+		holder = 1
+	}
+}
